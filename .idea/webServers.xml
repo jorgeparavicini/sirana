@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="13d43d9a-8ee8-4165-a750-22d2ae416c3b" name="Sirana" url="http://sirana.ch">
+        <fileTransfer port="0" mountedRoot="F:\xampp\htdocs" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
