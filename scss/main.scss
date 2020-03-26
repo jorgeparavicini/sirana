@@ -1,0 +1,157 @@
+@use 'header';
+@use 'media';
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/**************************************************
+HEADER
+***************************************************/
+
+
+
+/***********************************
+Body
+************************************/
+
+#starterPage {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+}
+
+#animationFruit {
+  display: block;
+  object-fit: contain;
+  flex: 0 1 auto;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#body {
+  min-height: 100vh;
+  overflow: auto;
+}
+
+.pageContent {
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 30px;
+
+  @include media.extra-large {
+    margin-right: 25%;
+    margin-left: 25%;
+  }
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 5px;
+  height: 50vh;
+  width: 100%;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.removed {
+  display: none;
+}
+
+
+.title {
+  margin: 30px 0;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  color: rgb(181, 216, 175);
+  font-size: 1.8em;
+  letter-spacing: 4px;
+  font-weight: 400;
+  line-height: 40px;
+
+  @include media.medium {
+    font-size: 2.5em;
+  }
+
+  @include media.large {
+    font-size: 3em;
+  }
+}
+
+.subtitle {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  color: rgb(181, 216, 175);
+  font-weight: lighter;
+  font-style: italic;
+  letter-spacing: 3px;
+  margin-top: 0;
+  font-size: 1.3em;
+}
+
+p {
+  text-align: center;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-size: 1em;
+  line-height: 30px;
+  letter-spacing: 2px;
+
+  @include media.large {
+    font-size: 1.25em;
+    line-height: 40px;
+  }
+}
+
+.button {
+  text-decoration: none;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
+  padding: 20px;
+  margin: 50px auto;
+  background-color: rgb(181, 216, 175);
+  color: black;
+  letter-spacing: 4px;
+
+  transition: background-color 0.5s ease;
+
+  @include media.large {
+    padding: 40px;
+    font-size: 1.25em;
+    font-weight: 600;
+    background-color: rgb(231, 243, 229);
+  }
+}
+
+.button:hover {
+  background-color: rgb(181, 216, 175);
+}
+
+.page {
+  display: flex;
+  flex-flow: column;
+}
+
+.pageContent {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+
+.intro {
+  margin: 20px auto;
+
+  @include media.medium {
+    margin: 10px auto;
+  }
+}

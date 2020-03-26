@@ -8,5 +8,6 @@
     <orderEntry type="library" name="jquery-ui" level="application" />
     <orderEntry type="library" name="jquery.easing.compatibility" level="application" />
     <orderEntry type="library" name="jquery.easing" level="application" />
+    <orderEntry type="library" name="xhq6pkb" level="application" />
   </component>
 </module>

@@ -1,104 +1,88 @@
-<div id="starterPage">
-  <img id="starterLogo" src="/img/logos/sirana_catering/Sirana_Catering_Logo_schwarz.png" alt="Sirana Logo">
-  <img id="animationFruit" src="/img/fruit_animations/9.1.gif" alt="Animation Fruit">
-</div>
-<div id="content">
-</div>
+<?php
+require_once "{$_SERVER['DOCUMENT_ROOT']}/php/models/Resources.php";
+?>
 
-<script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
+  <section class="scroll-panel" data-section-name="start" id="starterPage">
+    <div class="header" id="starterLogo">
+      <div class="content">
+        <div id="imageWrapper">
+          <img src="/img/logos/sirana_catering/Sirana_Catering_Logo_schwarz.png" alt="Sirana Logo">
+        </div>
+      </div>
+    </div>
+    <img id="animationFruit" src="<?php echo Resources::getRandomFruitAnimation() ?>" alt="Animation Fruit">
+  </section>
+  <section class="scroll-panel" data-section-name="home">
 
-<script>
-  // Header Scrolling
-  let duration = 700;
-  let isAnimating = false;
-  let body = $("html, body");
+    <header id="header" class="header">
+      <div class="content">
+        <div id="hamburgerButton">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div id="imageWrapper">
+          <img id="starterLogo" src="/img/logos/sirana_catering/Sirana_Catering_Logo_schwarz.png" alt="Sirana Logo">
+        </div>
+        <nav>
+          <div>
+            <a>Home</a>
+            <a>Angebot</a>
+            <a>Team</a>
+            <a>Kontakt</a>
+          </div>
+        </nav>
+      </div>
+    </header>
 
-  function scrollToTop() {
-    body.animate({scrollTop: $("#starterPage").offset().top + 'px'}, 500);
-    randomizeFruit();
-    isAnimating = true;
-    disableScroll();
-    setTimeout(function () {
-      lastPos = $(window).scrollTop();
-      isAnimating = false;
-      enableScroll();
-    }, duration);
-  }
+    <div id="hiddenHeader" class="header hidden removed">
+      <div class="content">
+        <div id="imageWrapper">
+          <img id="starterLogo" src="/img/logos/sirana_catering/Sirana_Catering_Logo_schwarz.png" alt="Sirana Logo">
+        </div>
+      </div>
+    </div>
+    <div id="body">
+      <div id="content">
+        <div class="page">
+          <div class="pageContent">
+            <div class="gallery">
+              <img src="/img/food.jpg" alt="Food">
+              <img src="/img/food6.jpg" alt="Food">
+              <img src="/img/food7.jpg" alt="Food">
+            </div>
+            <h2 class="title">Gastgeber aus Leidenschaft</h2>
+            <h3 class="subtitle">freude & genuss wo immer sie sind</h3>
+            <p class="intro">Die Gastronomie wird stets dynamischer -</p>
+            <p class="intro">Sirana Catering bringt Ihre Wünsche zu Ihnen nachhause oder wo immer Sie sind...</p>
+            <p class="intro">Lassen Sie uns Ihre Vorstellungen wissen und wir zaubern Ihren Wunschanlass</p>
 
-  function scrollToContent() {
-    body.animate({scrollTop: $("#content").offset().top + 'px'}, 500);
-    isAnimating = true;
-    disableScroll();
-    setTimeout(function () {
-      lastPos = $(window).scrollTop();
-      isAnimating = false;
-      enableScroll();
-    }, duration);
-  }
+            <a href="#" class="button">Zum Angebot</a>
+          </div>
+        </div>
+        <div class="page">
+          <div class="pageContent">
+            <h2>Angebot</h2>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  let lastPos = $(window).scrollTop();
+  </section>
 
-  $(window).scroll(function () {
-    if (isAnimating) return;
-    let newPos = $(window).scrollTop();
-    if (newPos > $("#content").offset().top) return;
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
 
-    if (newPos > lastPos) scrollToContent();
-    else scrollToTop();
-
-    lastPos = newPos;
-  });
-
-  randomizeFruit();
-
-  function randomizeFruit() {
-    let images = [<?php echo implode(", ", array_map(function ($a) {
-      return str_replace($_SERVER['DOCUMENT_ROOT'], "", "\"{$a}\"");
-    }, glob("{$_SERVER['DOCUMENT_ROOT']}/img/fruit_animations/*.gif")))?>];
-
-    let image = images[Math.floor(Math.random() * images.length)];
-    $("#animationFruit").attr("src", image);
-  }
-
-  // left: 37, up: 38, right: 39, down: 40,
-  // spacebar: 32, pageup: 33, pagedown: 34, end: 35, home: 36
-  var keys = {37: 1, 38: 1, 39: 1, 40: 1};
-
-  function preventDefault(e) {
-    e = e || window.event;
-    if (e.preventDefault)
-      e.preventDefault();
-    e.returnValue = false;
-  }
-
-  function preventDefaultForScrollKeys(e) {
-    if (keys[e.keyCode]) {
-      preventDefault(e);
-      return false;
-    }
-  }
-
-  function disableScroll() {
-    if (window.addEventListener) // older FF
-      window.addEventListener('DOMMouseScroll', preventDefault, false);
-    document.addEventListener('wheel', preventDefault, {passive: false}); // Disable scrolling in Chrome
-    window.onwheel = preventDefault; // modern standard
-    window.onmousewheel = document.onmousewheel = preventDefault; // older browsers, IE
-    window.ontouchmove  = preventDefault; // mobile
-    document.onkeydown  = preventDefaultForScrollKeys;
-  }
-
-  function enableScroll() {
-    if (window.removeEventListener)
-      window.removeEventListener('DOMMouseScroll', preventDefault, false);
-    document.removeEventListener('wheel', preventDefault, {passive: false}); // Enable scrolling in Chrome
-    window.onmousewheel = document.onmousewheel = null;
-    window.onwheel = null;
-    window.ontouchmove = null;
-    document.onkeydown = null;
-  }
-</script>
+  <script src="/js/jquery.js"></script>
+  <script src="/js/jquery.scrollify.js"></script>
+  <script src="/js/scrolling.js"></script>
+  <script>
+    let burger = $("#hamburgerButton");
+    let header = $("#header");
+    burger.click(function () {
+      header.toggleClass("open");
+    })
+  </script>
 <?php

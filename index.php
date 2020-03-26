@@ -2,9 +2,10 @@
 
 require_once "{$_SERVER['DOCUMENT_ROOT']}/php/builder.php";
 
-$path = parse_url(trim($_SERVER['REQUEST_URI']), PHP_URL_PATH);
-$path = pathinfo($path, PATHINFO_FILENAME);
-$path = strtolower($path);
+$uri = parse_url(trim($_SERVER['REQUEST_URI']), PHP_URL_PATH);
+$uri = strtolower($uri);
+$path = pathinfo($uri, PATHINFO_FILENAME);
+$extension = pathinfo($uri, PATHINFO_EXTENSION);
 
 if (!empty($path) && $path !== "/") {
   switch ($path) {

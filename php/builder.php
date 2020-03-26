@@ -17,7 +17,11 @@ function build(string $fileName)
 
 // BODY
   echo "<body>";
+  if (file_exists("{$_SERVER['DOCUMENT_ROOT']}/php/views/{$fileName}")) {
   include_once "{$_SERVER['DOCUMENT_ROOT']}/php/views/{$fileName}";
+} else {
+  include_once "{$_SERVER['DOCUMENT_ROOT']}/php/views/404.php";
+}
   echo "</body>";
 }
 
