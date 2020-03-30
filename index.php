@@ -13,6 +13,10 @@ if (!empty($path) && $path !== "/") {
       build("home.php");
       break;
 
+    case 'angebot':
+      build("angebot.php");
+      break;
+
     default:
       build("404.php");
       break;

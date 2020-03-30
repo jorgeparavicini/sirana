@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   pointer-events: none;
+  z-index: 10;
 
   &.fixed {
     position: fixed;
@@ -87,6 +88,41 @@
           letter-spacing: 5px;
           margin: 20px 0;
           text-transform: uppercase;
+          pointer-events: auto;
+          text-decoration: none;
+          color: black;
+
+          transition: all 0.2s ease-in-out;
+
+          &:before,
+          &:after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            width: 0;
+            height: 5px;
+            margin: 5px 0 0;
+            transition-duration: 0.75s;
+            transition: all 0.2s ease-in-out;
+            opacity: 0;
+            background-color: #723f71;
+          }
+
+          &:before {
+            left: 50%;
+          }
+
+          &:after {
+            right: 50%;
+          }
+
+          :hover {
+            &:before,
+            &:after {
+              opacity: 1;
+              width: 50%;
+            }
+          }
 
           @include media.extra-large {
             margin: 0 10px;
