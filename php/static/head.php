@@ -15,7 +15,6 @@ function build_head(string $file)
 
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="stylesheet" type="text/css" href="/css/normalize.css">
-    <!--<link rel="stylesheet" href="https://use.typekit.net/xhq6pkb.css">-->
     <link rel="stylesheet" href="https://use.typekit.net/xhq6pkb.css">
 
     <script src="/js/jquery.js"></script>

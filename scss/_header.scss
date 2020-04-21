@@ -1,7 +1,7 @@
 @use 'media';
 
 .header {
-  width: 100%;
+  width: 100vw;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -31,34 +31,14 @@
       background-color: white;
     }
 
-    img {
-      display: block;
-      width: 60%;
-      max-width: 100%;
-      max-height: 100%;
-      object-fit: contain;
-      margin: 30px auto 30px auto;
-      flex: 0 1 auto;
-
-      @include media.large {
-        width: 40%;
-      }
-
-      @include media.extra-large {
-        width: 20%;
-      }
-    }
-
     nav {
       background-color: white;
       width: 100%;
-      // TODO: Verify
-      //height: 0;
       left: 0;
-      transform: translate(calc(-100% - 30px), 0);
+      transform: translateX(-100%);
       transition: all 1s ease;
       flex: 1 1 auto;
-      display: flex;
+      position: relative;
 
       @include media.extra-large {
         position: absolute;
@@ -67,16 +47,25 @@
         width: auto;
         transform: none;
         top: 30px;
+        display: flex;
       }
 
       div {
-        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, calc(-50% - 74.67px));
 
         display: flex;
         flex-flow: column;
 
         @include media.extra-large {
           flex-flow: row;
+          margin: auto;
+          position: initial;
+          top: initial;
+          left: initial;
+          transform: none;
         }
 
         a {
@@ -197,5 +186,19 @@
     nav {
       transform: none;
     }
+  }
+}
+
+.headerImage {
+  display: block;
+  width: 200px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  margin: 30px auto 30px auto;
+  flex: 0 1 auto;
+
+  @include media.largest {
+    width: 300px;
   }
 }

@@ -1,0 +1,38 @@
+#overlay {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: white;
+  transition: all 1s ease;
+
+  .animation {
+    max-width: 60%;
+    max-height: 60%;
+    position: absolute;
+    object-fit: contain;
+    margin: auto;
+    transition: all 1s ease;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    &.enlarge {
+      max-width: 80%;
+      max-height: 80%;
+    }
+
+    &.shrink {
+      max-width: 0;
+      max-height: 0;
+      opacity: 0;
+    }
+  }
+}
+
+.closed {
+  transform: translateY(-100%);
+}

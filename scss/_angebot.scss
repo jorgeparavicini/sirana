@@ -11,8 +11,9 @@
     }
 
     .title {
-      color: #f3b09a;
-      text-transform: uppercase;
+      margin-bottom: 50px;
+      margin-left: -10%;
+      margin-right: -10%;
     }
   }
 
@@ -21,106 +22,328 @@
     width: 100vw;
     background-color: #e7f3e5;
     margin-left: -12.5%;
+    margin-bottom: 100px;
+    display: flex;
 
     @include media.extra-large {
       margin-left: -50%;
     }
 
-    .content {
-      margin-right: 10%;
-      margin-left: 10%;
-      display: grid;
-      grid-template-rows: repeat(3, 1fr);
-      grid-row-gap: 20px;
-
-      @include media.medium {
-        margin-right: 25%;
-        margin-left: 25%;
-      }
-
-      @include media.large {
-        grid-template-columns: repeat(3, 1fr);
-        grid-column-gap: 20px;
-        grid-template-rows: none;
-        background-color: white;
-      }
-
-      @include media.extra-large {
-        margin-left: 25%;
-        margin-right: 25%;
-      }
-
-      .angebotContent {
-        height: 50vh;
-        width: 100%;
-        grid-row: 1;
+    @media not screen and (min-width: 1200px) {
+      .content {
+        display: flex;
+        flex-flow: column;
+        margin-left: 10%;
+        margin-right: 10%;
         position: relative;
-        transition: all 1s ease;
-        transform-style: preserve-3d;
 
-        &.isFlipped {
-          // Mobile
-          /*.front {
-            transform: rotateY(-180deg);
-            -webkit-transform: rotateY(-180deg);
-          }
-          .back {
-            transform: rotateY(0);
-            -webkit-transform: rotateY(0);
-          }*/
+        @include media.medium {
+          margin-right: 25%;
+          margin-left: 25%;
+        }
 
-          .back {
-            display: block;
-            position: absolute;
-            width: 100%;
-            height: 100%;
+        .angebotContent:hover {
+          .angebotInfo .front .forwarder {
+            background-color: #fadbd1;
           }
         }
 
-        div {
-          width: 100%;
-          height: 100%;
-          position: absolute;
+        .angebotContent {
+          margin: 20px auto;
+
+          &:first-of-type {
+            margin-top: 0;
+          }
+
+          &:last-of-type {
+            margin-bottom: 0;
+          }
+
           transition: all 1s ease;
-          backface-visibility: hidden;
-          -webkit-perspective: 0;
-          -webkit-backface-visibility: hidden;
-          -webkit-transform: translate3d(0, 0, 0);
-        }
+          overflow: hidden;
+          cursor: pointer;
+          width: 100%;
+          height: 60vh;
 
-        .front {
-          img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
+          &.open {
+            .angebotInfo {
+              .front {
+                .infoValue {
+                  flex: 1 1 auto;
+                }
+              }
+            }
           }
 
-          p {
-            width: 90%;
-            padding: 10px 0;
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            background-color: white;
-            color: #f3b09a;
-            font-weight: 500;
-            letter-spacing: 5px;
-            font-size: 1.5em;
+          .angebotInfo {
+            width: 100%;
+            height: 100%;
+            position: relative;
 
-            @include media.largest {
-              font-size: 1.5em;
+            .front {
+              width: 100%;
+              height: 100%;
+              display: flex;
+              flex-flow: column;
+              justify-content: flex-end;
+              transition: all 1s ease;
+
+              img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+
+              .forwarder {
+                width: 80%;
+                padding: 10px 0;
+                margin: 0 auto;
+                background-color: white;
+                color: #f3b09a;
+                overflow: hidden;
+                cursor: pointer;
+                transition: all 1s ease;
+                position: relative;
+
+                p {
+                  width: 100%;
+                  text-align: center;
+                  font-weight: 500;
+                  letter-spacing: 3px;
+                  font-size: 1.3em;
+                  overflow: auto;
+                  text-transform: uppercase;
+                }
+
+                .arrow {
+                  position: absolute;
+                  right: 10px;
+                  top: 50%;
+                  transform: translateY(-50%);
+
+                  &.large {display: none;}
+
+                  span {
+                    background-color: #f3b09a;
+                  }
+                }
+              }
+
+              .infoValue {
+                width: 80%;
+                margin: 0 auto;
+                height: 0;
+                transition: all 1s ease;
+                background-color: white;
+                z-index: 1;
+
+                display: flex;
+
+                p {
+                  margin: auto 30px;
+                  line-height: 22px;
+                  font-size: 0.8em;
+
+                  @include media.medium {
+                    font-size: 1em;
+                    line-height: 25px;
+                  }
+
+                  @include media.large {
+                    font-size: 1.1em;
+                    line-height: 30px;
+                  }
+                }
+              }
             }
           }
         }
+      }
+    }
 
-        .back {
-          background-color: white;
-          display: none;
-          /*transform: rotateY(180deg);
-          -webkit-transform: rotateY(180deg);*/
+    @include media.extra-large {
+      .content {
+        height: 50vh;
+        min-height: 700px;
+        margin: 0 auto;
+        width: 60%;
+        min-width: 900px;
+        position: relative;
+        background-color: white;
+
+        .angebotContent:hover {
+          .angebotInfo .front .forwarder {
+            background-color: #fadbd1;
+          }
+        }
+
+        .angebotContent {
+          transition: all 1s ease;
+          overflow: hidden;
+          cursor: pointer;
+          width: 30%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+
+          &:first-child {
+            left: 0;
+          }
+
+          &:nth-child(2) {
+            left: 50%;
+            transform: translateX(-50%);
+          }
+
+          &:last-child {
+            right: 0;
+          }
+
+          &.shrink {
+            width: 0;
+          }
+
+          &.expand {
+            width: 100%;
+            z-index: 1;
+
+            .angebotInfo {
+              .front {
+                .forwarder {
+                  width: 80%;
+
+                }
+              }
+            }
+          }
+
+
+          &.removing {
+            z-index: 1;
+          }
+
+          .angebotInfo {
+            width: 100%;
+            height: 100%;
+
+            > div {
+              width: 100%;
+              height: 100%;
+              position: absolute;
+            }
+
+            .front {
+              display: flex;
+              flex-flow: column;
+              justify-content: flex-end;
+              transition: all 1s ease;
+
+              img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+
+              .forwarder {
+                width: 90%;
+                padding: 10px 0;
+                margin: 0 auto;
+                background-color: white;
+                color: #f3b09a;
+                overflow: hidden;
+                cursor: pointer;
+                transition: all 1s ease, background-color 0.5s ease;
+                position: relative;
+
+                p {
+                  width: 100%;
+                  text-align: center;
+                  font-weight: 500;
+                  letter-spacing: 5px;
+                  font-size: 1.5em;
+                  overflow: auto;
+                  text-transform: uppercase
+                }
+
+                .arrow {
+                  position: absolute;
+                  right: 10px;
+                  top: 50%;
+                  transform: translateY(-50%);
+
+                  visibility: hidden;
+
+                  &.display {
+                    visibility: visible;
+                  }
+
+                  &.large {display: inline-block}
+                  &.small {display: none;}
+
+                  span {
+                    background-color: #f3b09a;
+                  }
+                }
+
+
+              }
+
+              .infoValue {
+                width: 80%;
+                margin: 0 auto;
+                height: 0;
+                transition: all 1s ease;
+                background-color: white;
+                z-index: 1;
+
+                display: flex;
+
+                p {
+                  margin: auto 20%;
+                  line-height: 35px;
+                  font-size: 1.1em;
+                }
+              }
+            }
+          }
+
+          &.show {
+            .angebotInfo {
+              .front {
+                .infoValue {
+                  flex: 1 1 auto;
+                }
+              }
+            }
+          }
         }
       }
+    }
+  }
+
+  .events {
+    &.hidden {
+      display: none;
+    }
+    display: flex;
+    flex-flow: column;
+
+    a {
+      display: inline-block;
+      box-sizing: border-box;
+      background-color: #f4b8a4;
+      color: white;
+      font-weight: 500;
+    }
+
+    a:hover {
+      background-color: #ef9476;
     }
   }
 

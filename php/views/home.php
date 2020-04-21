@@ -5,25 +5,35 @@ require_once "{$_SERVER['DOCUMENT_ROOT']}/php/models/Resources.php";
     <div id="content">
       <div class="page">
         <div class="pageContent">
-          <div class="gallery">
-            <!-- TODO: Better names -->
-            <img src="/img/food.jpg" alt="Food">
-            <img src="/img/food6.jpg" alt="Food">
-            <img src="/img/food7.jpg" alt="Food">
-          </div>
-          <h2 class="title">Gastgeber aus Leidenschaft</h2>
+          <img class="mainImage" src="/img/main.JPG" alt="Koch">
+          <h2 class="title main">Gastgeber aus Leidenschaft</h2>
           <h3 class="subtitle">freude & genuss wo immer sie sind</h3>
-          <p class="intro">Die Gastronomie wird stets dynamischer -</p>
-          <p class="intro">Sirana Catering bringt Ihre Wünsche zu Ihnen nachhause oder wo immer Sie sind...</p>
-          <p class="intro">Lassen Sie uns Ihre Vorstellungen wissen und wir zaubern Ihren Wunschanlass</p>
+          <p>
+            Die Gastronomie wird stets dynamischer -<br/>
+            Sirana Catering bringt Ihre Wünsche zu Ihnen.
+            Lassen Sie uns Ihre Vorstellungen wissen und wir zaubern Ihren Wunschanlass.
+          </p>
 
-          <!--<a href="#" class="button">Zum Angebot</a>-->
-          <div class="hoverImage">
-            <div class="content">
-              <img src="/img/01%20Bildwelt%20PNG/1-04.png" alt="Aubergine wird zu Angebot" class="shown">
-              <a href="/angebot" class="hiddenContent">Angebot</a>
-            </div>
+          <h2 class="title">Wieso Sirana</h2>
+          <p>Sirana ist ein innovatives Catering Unternehmen mit Sitz in Glarus. Unsere Stärke ist nicht nur die
+            kulinarische Vielfalt, sondern insbesonderea auch die Individualität unsere Kundenschaft. Um Ihre
+            Zufriedenheit sicherzustellen, betrachten wir jeden Anlass als neues Projekt und passen dieses Ihren
+            individuellen Wünschen an.</p>
+          <p class="quote">"Wir machen alles, um Ihnen eine Freude zu bereiten und teilen mit Ihnen die Leidenschaft
+            fürs Essen."</p>
+          <img class="fruit" src="<?php echo Resources::getRandomStaticFruit() ?>" alt="Fruit">
+          <div class="red">
+            <h2 class="title">Unsere Philosophie</h2>
+            <p>Familie, Freunde und die Leidenschaft für gutes Essen sind ein grosser Teil unserer Philosophy und bilden
+              den Ursprung unserer Unternehmung. Kleine Familienfesten und Anlässe mit Freunden bringen den Ball ins
+              Rollen... Aus Hobby wird Leidenschaft, asu Leidenschaft wird Beruf...</p>
           </div>
+          <h2 class="title kochstil">Unser Kochstil</h2>
+          <p>Mit frischen Zutaten von wo möglich lokalen Partnern kreiren wir saisonale Gerichte mit internationalem
+            Touch, die Sie auf eine kulinarische Weltreise mitnehmen. Wir servieren Speiseen, die Freude bereiten. Sie
+            sollen geschmacklich überzeugen und Ihren Wünschen gerecht werden.</p>
+          <p class="quote">Lassen Sie uns also wissen, mit welchen Gerichten wir Ihnen eine besondere Freude bereiten
+            können.</p>
         </div>
       </div>
     </div>

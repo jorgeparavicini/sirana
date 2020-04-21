@@ -14,6 +14,11 @@ function build(string $fileName)
   </html>
   <?php
 
+  if (!isset($_SESSION['visited']) || $_SESSION['visited'] === false) {
+    $_SESSION['visited'] = true;
+    require_once "{$_SERVER['DOCUMENT_ROOT']}/php/static/firstPage.php";
+  }
+
   require_once "{$_SERVER['DOCUMENT_ROOT']}/php/static/header.php";
   require_once "{$_SERVER['DOCUMENT_ROOT']}/php/static/hiddenHeader.php";
 

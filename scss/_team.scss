@@ -1,0 +1,82 @@
+@use 'media';
+
+.team {
+  .center {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #teamWrapper {
+    margin: 20px auto 50px auto;
+    width: 100%;
+    padding-bottom: 66.66%;
+    position: relative;
+    transform-origin: top right;
+
+    @include media.medium {
+      margin-top: 50px;
+    }
+
+    .teamSirana {
+      position: absolute;
+      transform-origin: top left;
+      top: 0;
+      left: 0;
+      overflow: visible;
+      width: 900px;
+      height: 600px;
+
+      .staff {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+
+      .si {
+        position: absolute;
+        left: 0;
+        top: 0;
+        transform: scale(0.5) translate(-100%, -90%);
+      }
+
+      .ra {
+        position: absolute;
+        right: 0;
+        top: 0;
+        transform: scale(0.5) translate(50%, 10%);
+        transform-origin: top right;
+      }
+
+      .na {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: scale(0.5) translate(-30%, 50%);
+        transform-origin: bottom left;
+      }
+    }
+  }
+
+  .title {
+    margin-left: 20px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #f3b09a;
+  }
+
+  .slideshow {
+    margin-left: 20px;
+    margin-bottom: 50px;
+
+    p {
+      text-align: left;
+    }
+
+    .title {
+      margin-left: 0;
+      text-transform: uppercase;
+      color: #a0cd98;
+      font-size: 1.4em;
+    }
+  }
+}
