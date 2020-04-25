@@ -27,29 +27,22 @@ body {
   url("/Fonts/NewParisKingSize/NewParisKingSize-Air-WebS.svg#svgFontName") format('svg');
 }
 
-/***********************************
-Body
-************************************/
-
 img {
   object-fit: contain;
 }
 
+p {
+  text-align: center;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-size: 1em;
+  line-height: 30px;
+  letter-spacing: 2px;
+  margin: 0;
 
-#starterPage {
-  box-sizing: border-box;
-  display: flex;
-  flex-flow: column;
-  height: 100vh;
-}
-
-#animationFruit {
-  display: block;
-  object-fit: contain;
-  flex: 0 1 auto;
-  margin: auto;
-  max-width: 100%;
-  max-height: 100%;
+  @include media.large {
+    font-size: 1.1em;
+    line-height: 40px;
+  }
 }
 
 .pageContent {
@@ -105,9 +98,8 @@ img {
 }
 
 .quote {
-  margin: 40px auto;
-  font-style: italic;
-  color: #b1d2ae;
+  margin: 80px auto 0 auto;
+  font-family: NewParisKingSize, serif;
   padding-right: 50px;
   padding-left: 50px;
   font-size: 1.3em;
@@ -127,23 +119,22 @@ img {
   color: #f3b09a;
   font-size: 1.8em;
   letter-spacing: 4px;
-  font-weight: 400;
   line-height: 40px;
   text-transform: uppercase;
+  font-weight: lighter;
 
   @include media.medium {
-    font-size: 2.5em;
-    font-weight: 300;
+    font-size: 2.2em;
   }
 
   @include media.large {
-    font-size: 3em;
+    font-size: 2.5em;
   }
 }
 
 .subtitle {
   font-family: NewParisKingSize, serif;
-  font-weight: bold;
+  font-weight: lighter;
   letter-spacing: 3px;
   margin-top: 0;
   font-size: 1.3em;
@@ -175,25 +166,12 @@ img {
   padding-right: 10vw;
   padding-left: 10vw;
   padding-bottom: 5vh;
+  margin-top: 120px;
 
   @include media.extra-large {
-    margin-left: -50%;
-    padding-left: 25vw;
-    padding-right: 25vw;
-  }
-}
-
-p {
-  text-align: center;
-  font-family: neue-haas-grotesk-display, sans-serif;
-  font-size: 1em;
-  line-height: 30px;
-  letter-spacing: 2px;
-  margin: 0;
-
-  @include media.large {
-    font-size: 1.25em;
-    line-height: 40px;
+    margin-left: calc((-100vw + 1000px) / 2);
+    padding-left: calc((100vw - 1000px) / 2);
+    padding-right: calc((100vw - 1000px) / 2);
   }
 }
 
@@ -349,7 +327,6 @@ a {
 
 #body {
   .main {
-    font-weight: bold;
     font-family: NewParisKingSize, serif;
   }
 }
@@ -358,29 +335,46 @@ a {
   margin-top: 80px;
 }
 
-.bot-space {
-  margin-bottom: 80px;
-}
-
 .kochstil {
   margin-top: 7.5vh;
 }
 
 .split {
   display: flex;
+  justify-content: space-between;
   flex-flow: column-reverse;
+  margin-top: 120px;
+
+  * {
+    margin-top: 0;
+  }
+
 
   @include media.small {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 40px;
+    flex-flow: row;
     height: 500px;
   }
 
-  .right {
-    grid-column: 1;
+  .right, .left {
     width: 100%;
     height: 100%;
+    @include media.small {
+      width: 45%;
+    }
+  }
+
+  .left * {
+    @include media.small {
+      text-align: left;
+    }
+  }
+
+  /*.right {
+    width: 100%;
+    height: 100%;
+    @include media.small {
+      width: 45%;
+    }
 
     * {
       margin: 0;
@@ -403,17 +397,14 @@ a {
       }
     }
 
-    p {
-      font-size: 1.1em;
-      line-height: 30px;
-    }
+  }*/
 
-  }
-
-  .left {
-    grid-column: 2;
+  img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
   }
+}
+
+.pink {
+  background-color: #f3e9e7;
 }
