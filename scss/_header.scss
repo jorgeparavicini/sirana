@@ -7,6 +7,7 @@
   height: variables.$header-height-mobile;
   background-color: white;
   z-index: 10;
+  display: flex;
 
   @include media.extra-large {
     height: variables.$header-height-desktop;
@@ -19,6 +20,7 @@
     max-height: 100%;
     margin: 0 auto;
     padding: 30px 0;
+    flex-basis: 0;
   }
 
   nav {
