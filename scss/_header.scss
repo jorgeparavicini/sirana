@@ -1,167 +1,65 @@
 @use 'media';
+@use 'variables';
 
-.header {
+#header {
+  position: fixed;
   width: 100vw;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  pointer-events: none;
+  height: variables.$header-height-mobile;
+  background-color: white;
   z-index: 10;
 
-  &.fixed {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
+  @include media.extra-large {
+    height: variables.$header-height-desktop;
   }
 
-  .content {
-    position: relative;
-    width: 100%;
-    height: 100%;
+  img {
+    box-sizing: border-box;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+
+  nav {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    z-index: -1;
+
+    background-color: white;
+    transform: translateX(-100%);
+    transition: all 1s ease;
+    flex: 1 1 auto;
+
     display: flex;
-    flex-flow: column;
 
-
-    p {
-      margin: 0;
-    }
-
-    #imageWrapper {
-      background-color: white;
-    }
-
-    nav {
-      background-color: white;
-      width: 100%;
-      left: 0;
-      transform: translateX(-100%);
-      transition: all 1s ease;
-      flex: 1 1 auto;
-      position: relative;
-
-      @include media.extra-large {
-        position: absolute;
-        left: auto;
-        right: 30px;
-        width: auto;
-        transform: none;
-        top: 30px;
-        display: flex;
-      }
-
-      div {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, calc(-50% - 74.67px));
-
-        display: flex;
-        flex-flow: column;
-
-        @include media.extra-large {
-          flex-flow: row;
-          margin: auto;
-          position: initial;
-          top: initial;
-          left: initial;
-          transform: none;
-        }
-
-        a {
-          text-align: center;
-          font-size: 1.375em;
-          font-family: neue-haas-grotesk-display, sans-serif;
-          font-weight: 100;
-          font-style: normal;
-          letter-spacing: 5px;
-          margin: 20px 0;
-          text-transform: uppercase;
-          pointer-events: auto;
-          text-decoration: none;
-          color: black;
-
-          transition: all 0.2s ease-in-out;
-
-          &:before,
-          &:after {
-            content: "";
-            position: absolute;
-            bottom: -10px;
-            width: 0;
-            height: 5px;
-            margin: 5px 0 0;
-            transition-duration: 0.75s;
-            transition: all 0.2s ease-in-out;
-            opacity: 0;
-            background-color: #723f71;
-          }
-
-          &:before {
-            left: 50%;
-          }
-
-          &:after {
-            right: 50%;
-          }
-
-          :hover {
-            &:before,
-            &:after {
-              opacity: 1;
-              width: 50%;
-            }
-          }
-
-          @include media.extra-large {
-            margin: 0 10px;
-            letter-spacing: 3px;
-            font-size: 1.1em;
-          }
-        }
-      }
-    }
-
-    #hamburgerButton {
-      position: absolute;
+    @include media.extra-large {
+      height: auto;
+      left: auto;
+      right: 30px;
+      width: auto;
+      transform: none;
       top: 30px;
-      left: 15px;
-      width: 33px;
-      height: 33px;
-      pointer-events: auto;
+    }
 
+    div {
+      margin: auto;
       display: flex;
       flex-flow: column;
-      justify-content: center;
-
-      cursor: pointer;
-
-      @include media.small {
-        left: 33px;
-      }
 
       @include media.extra-large {
-        display: none;
-      }
+        flex-flow: row;
+        margin: auto;
+        position: initial;
+        top: initial;
+        left: initial;
+        transform: none;
 
-      span {
-        background-color: black;
-        width: auto;
-        height: 3px;
-        border-radius: 3px;
-
-        transition: transform 0.5s cubic-bezier(0.77, 0.0, 0.05, 1.0),
-        background 0.5s cubic-bezier(0.77, 0.0, 0.05, 1.0),
-        opacity 0.55s ease;
-
-        &:first-child {
-          transform-origin: top left;
-          margin: 0 0 5px 0;
-        }
-
-        &:last-child {
-          margin: 5px 0 0 0;
-          transform-origin: top left;
+        a {
+          margin: 0 10px;
         }
       }
     }
@@ -187,18 +85,48 @@
       transform: none;
     }
   }
-}
 
-.headerImage {
-  display: block;
-  width: 200px;
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-  margin: 30px auto 30px auto;
-  flex: 0 1 auto;
+  #hamburgerButton {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    width: 33px;
+    height: 33px;
+    pointer-events: auto;
 
-  @include media.largest {
-    width: 300px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+    cursor: pointer;
+
+    @include media.small {
+      left: 33px;
+    }
+
+    @include media.extra-large {
+      display: none;
+    }
+
+    span {
+      background-color: black;
+      width: auto;
+      height: 3px;
+      border-radius: 3px;
+
+      transition: transform 0.5s cubic-bezier(0.77, 0.0, 0.05, 1.0),
+      background 0.5s cubic-bezier(0.77, 0.0, 0.05, 1.0),
+      opacity 0.55s ease;
+
+      &:first-child {
+        transform-origin: top left;
+        margin: 0 0 5px 0;
+      }
+
+      &:last-child {
+        margin: 5px 0 0 0;
+        transform-origin: top left;
+      }
+    }
   }
 }

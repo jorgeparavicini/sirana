@@ -20,7 +20,6 @@ function build(string $fileName)
   }
 
   require_once "{$_SERVER['DOCUMENT_ROOT']}/php/static/header.php";
-  require_once "{$_SERVER['DOCUMENT_ROOT']}/php/static/hiddenHeader.php";
 
 
 // BODY

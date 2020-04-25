@@ -6,6 +6,8 @@
 @use 'kontakt';
 @use 'kontaktform';
 @use 'firstPage';
+@use 'fonts';
+@use 'variables';
 
 body {
   display: flex;
@@ -13,29 +15,27 @@ body {
   overflow-x: hidden;
   min-height: 100vh;
   width: 100vw;
-  min-width: 100vw;
-  max-width: 100vw;
 }
 
-@font-face {
-  font-family: "NewParisKingSize";
-  src: url("/Fonts/NewParisKingSize/NewParisKingSize-Air-WebS.eot");
-  src: url("/Fonts/NewParisKingSize/NewParisKingSize-Air-WebS.eot?#iefix") format('embedded-opentype'),
-  url("/Fonts/NewParisKingSize/NewParisKingSize-Air-WebS.woff2") format('woff2'),
-  url("/Fonts/NewParisKingSize/NewParisKingSize-Air-WebS.woff") format('woff'),
-  url("/Fonts/NewParisKingSize/NewParisKingSize-Air-WebS.ttf") format('truetype'),
-  url("/Fonts/NewParisKingSize/NewParisKingSize-Air-WebS.svg#svgFontName") format('svg');
+// TODO: make something nice
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
 }
 
 img {
   object-fit: contain;
 }
 
-p {
+a, p {
   text-align: center;
   font-family: neue-haas-grotesk-display, sans-serif;
-  font-size: 1em;
+  color: black;
   line-height: 30px;
+}
+
+p {
+  font-size: 1em;
   letter-spacing: 2px;
   margin: 0;
 
@@ -45,16 +45,25 @@ p {
   }
 }
 
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.25em;
+  letter-spacing: 5px;
+  margin: 20px 0;
+}
+
 .pageContent {
+  margin-top: variables.$header-height-mobile;
   margin-right: 10%;
   margin-left: 10%;
-  margin-top: 0;
   display: flex;
   flex-flow: row;
 
   @include media.extra-large {
     margin-right: auto;
     margin-left: auto;
+    margin-top: variables.$header-height-desktop;
 
     width: 1000px;
   }
@@ -200,11 +209,6 @@ p {
   background-color: rgb(181, 216, 175);
 }
 
-.page {
-  display: flex;
-  flex-flow: column;
-}
-
 .pageContent {
   display: flex;
   flex-flow: column;
@@ -219,17 +223,17 @@ p {
   }
 }
 
-a {
+/*a {
   font-size: 1.375em;
   font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 100;
   font-style: normal;
   letter-spacing: 5px;
-  margin: 20px 0;
+
   text-transform: uppercase;
   pointer-events: auto;
   text-decoration: none;
-}
+}*/
 
 .hoverImage {
   margin: 0 auto;
@@ -322,12 +326,6 @@ a {
         transform: rotate(45deg);
       }
     }
-  }
-}
-
-#body {
-  .main {
-    font-family: NewParisKingSize, serif;
   }
 }
 
