@@ -2,7 +2,7 @@
 
 footer {
   margin-top: 140px;
-  height: 200px;
+  height: 150px;
   width: 100vw;
 
   background-color: variables.$title-color;
@@ -12,6 +12,7 @@ footer {
   justify-content: center;
 
   a {
+    font-size: 1em;
     margin: auto 30px;
   }
 }
