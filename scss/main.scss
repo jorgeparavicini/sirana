@@ -147,7 +147,7 @@ h3 {
 .banner {
   box-sizing: border-box;
   width: 100vw;
-  background-color: #f3e9e7;
+  background-color: variables.$secondary-background-color;
   margin-left: -12.5%;
   padding: 40px 10vw;
 
@@ -159,27 +159,13 @@ h3 {
 }
 
 .button {
-  text-decoration: none;
-  font-family: neue-haas-grotesk-display, sans-serif;
-  font-size: 1em;
-  text-transform: uppercase;
-  padding: 20px;
+  padding: 30px 50px;
   margin: 50px auto;
-  background-color: rgb(181, 216, 175);
-  color: black;
-  letter-spacing: 4px;
-
+  background-color: variables.$secondary-background-color;
   transition: background-color 0.5s ease;
 
-  @include media.large {
-    padding: 40px;
-    font-size: 1.25em;
-    font-weight: 600;
-    background-color: rgb(231, 243, 229);
-  }
-
   &:hover {
-    background-color: rgb(181, 216, 175);
+    background-color: variables.$title-color;
   }
 }
 

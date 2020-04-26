@@ -1,9 +1,17 @@
 @use 'media';
+@use 'variables';
 
 #angebot {
+
+  h3 {
+    margin-top: 100px;
+  }
+
   .angebotBilder {
     padding: 0;
+    margin-top: 40px;
     margin-bottom: 100px;
+    background-color: white;
 
     @media not screen and (min-width: 1200px) {
       .content {
@@ -20,7 +28,7 @@
 
         .angebotContent:hover {
           .angebotInfo .front .forwarder {
-            background-color: #fadbd1;
+            //background-color: #fadbd1;
           }
         }
 
@@ -87,7 +95,7 @@
                 p {
                   width: 100%;
                   text-align: center;
-                  font-weight: 500;
+                  font-weight: lighter;
                   letter-spacing: 3px;
                   font-size: 1.3em;
                   overflow: auto;
@@ -152,7 +160,7 @@
 
         .angebotContent:hover {
           .angebotInfo .front .forwarder {
-            background-color: #fadbd1;
+            //background-color: #fadbd1;
           }
         }
 
@@ -160,10 +168,14 @@
           transition: all 1s ease;
           overflow: hidden;
           cursor: pointer;
-          width: 30%;
+          width: 32%;
           height: 100%;
           position: absolute;
           top: 0;
+
+          &:hover {
+            height: 103%;
+          }
 
           &:first-child {
             left: 0;
@@ -240,11 +252,12 @@
                 p {
                   width: 100%;
                   text-align: center;
-                  font-weight: 500;
+                  font-weight: lighter;
                   letter-spacing: 5px;
                   font-size: 1.5em;
                   overflow: auto;
-                  text-transform: uppercase
+                  text-transform: uppercase;
+                  color: variables.$title-color;
                 }
 
                 .arrow {
