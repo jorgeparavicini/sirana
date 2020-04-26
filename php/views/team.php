@@ -1,52 +1,50 @@
-<div class="team">
-  <div class="page">
-    <div class="pageContent">
-      <div class="center">
-        <div id="teamWrapper">
-          <div class="teamSirana" id="teamImg">
-            <img src="/img/staff.jpg" alt="Staff" class="staff">
-            <img src="/img/logos/Sirana%20Logo%20aufgeteilt/Sirana_Logo_SI_gruen.png" alt="SI" class="si">
-            <img src="/img/logos/Sirana%20Logo%20aufgeteilt/Sirana_Logo_RA_gruen.png" alt="RA" class="ra">
-            <img src="/img/logos/Sirana%20Logo%20aufgeteilt/Sirana_Logo_NA_gruen.png" alt="NA" class="na">
+<div class="pageContent" id="team">
+  <div class="center">
+    <div id="teamWrapper">
+      <div class="teamSirana" id="teamImg">
+        <img src="/img/staff.jpg" alt="Staff" class="staff">
+        <img src="/img/logos/Sirana%20Logo%20aufgeteilt/Sirana_Logo_SI_gruen.png" alt="SI" class="si">
+        <img src="/img/logos/Sirana%20Logo%20aufgeteilt/Sirana_Logo_RA_gruen.png" alt="RA" class="ra">
+        <img src="/img/logos/Sirana%20Logo%20aufgeteilt/Sirana_Logo_NA_gruen.png" alt="NA" class="na">
+      </div>
+    </div>
+  </div>
+  <div class="aboutUs">
+    <h3 class="title">Who we are...</h3>
+    <section class="slideshow">
+      <div class="slider">
+        <div class="slide_viewer">
+          <div class="slide_group">
+            <p class="slide">Zu einer solch dynamischen Branche gehört auch ein genauso dynamisches Team. Simon,
+              Raffael und Adriana - allesamt Absolvente der Hotelfachschule Belvoirpark in Zürich - sind
+              leidenschaftliche Gastgeber und überzeugen nicht nur durch ihre lebendige und frische Art sondern
+              auch durch die Kompetenz und das Fachwissen, welches sie mitbringen.</p>
+            <p class="slide">
+              <span class="title">Simon - </span> Das Arbeitstier, der Harmoniemensch und leidenschaftlicher
+              Gastgeber. Seine Lust und Neugier, Neues auszuprobieren und Gäste zufrieden zustellen, macht ihn
+              aus. Für die Einzigartigkeit und Perfektion eines Anlasses ist ihm keine Mühe zu gross.
+            </p>
+            <p class="slide">
+              <span class="title">Raffael - </span>Der Geniesser, kreativer Luftibus und steetig auf derr Suche nach
+              neuen Herausforderungen. Er bringt bereits einen vollen Topf an gastronomischen Erfahrungen mit, kennt
+              in Glarus Ein und die Welt und sorgt durch sein breites Fachwissen als Koch für das leibliche Wohl
+              unserer Gäste.
+            </p>
+            <p class="slide">
+              <span class="title">Adriana - </span>Die ruhige Hand, der koordiniereednde Kopf und das Auge fürs
+              Detail. Damit Gäste nicht kulinarisch verwöhnt werden, sondern auch von der räumlichen Gestaltung
+              überzeugt sind, kümmert sich Adriana liebevoll um alle dekorativen Details. Auch sie ist
+              leidenschaftliche Gastgeberin und hat zudem ein organisatorisches Talent, sodass auch alle
+              administrativen Tätigkeiten einwandfrei funktionieren.
+            </p>
           </div>
         </div>
       </div>
-      <div class="aboutUs">
-        <h2 class="title">Who we are...</h2>
-        <section class="slideshow">
-          <div class="slider">
-            <div class="slide_viewer">
-              <div class="slide_group">
-                <p class="slide">Zu einer solch dynamischen Branche gehört auch ein genauso dynamisches Team. Simon,
-                  Raffael und Adriana - allesamt Absolvente der Hotelfachschule Belvoirpark in Zürich - sind
-                  leidenschaftliche Gastgeber und überzeugen nicht nur durch ihre lebendige und frische Art sondern
-                  auch durch die Kompetenz und das Fachwissen, welches sie mitbringen.</p>
-                <p class="slide">
-                  <span class="title">Simon - </span> Das Arbeitstier, der Harmoniemensch und leidenschaftlicher
-                  Gastgeber. Seine Lust und Neugier, Neues auszuprobieren und Gäste zufrieden zustellen, macht ihn
-                  aus. Für die Einzigartigkeit und Perfektion eines Anlasses ist ihm keine Mühe zu gross.
-                </p>
-                <p class="slide">
-                  <span class="title">Raffael - </span>Der Geniesser, kreativer Luftibus und steetig auf derr Suche nach
-                  neuen Herausforderungen. Er bringt bereits einen vollen Topf an gastronomischen Erfahrungen mit, kennt
-                  in Glarus Ein und die Welt und sorgt durch sein breites Fachwissen als Koch für das leibliche Wohl
-                  unserer Gäste.
-                </p>
-                <p class="slide">
-                  <span class="title">Adriana - </span>Die ruhige Hand, der koordiniereednde Kopf und das Auge fürs
-                  Detail. Damit Gäste nicht kulinarisch verwöhnt werden, sondern auch von der räumlichen Gestaltung
-                  überzeugt sind, kümmert sich Adriana liebevoll um alle dekorativen Details. Auch sie ist
-                  leidenschaftliche Gastgeberin und hat zudem ein organisatorisches Talent, sodass auch alle
-                  administrativen Tätigkeiten einwandfrei funktionieren.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="directional_nav">
-            <div class="previous_btn" title="Previous">
-              <svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="Capa_1" x="0px" y="0px"
-                   viewBox="0 0 477.175 477.175" xml:space="preserve"
-                   width="512px" height="512px">
+      <div class="directional_nav">
+        <div class="previous_btn" title="Previous">
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="Capa_1" x="0px" y="0px"
+               viewBox="0 0 477.175 477.175" xml:space="preserve"
+               width="512px" height="512px">
                 <g>
                   <g>
                     <path
@@ -55,12 +53,12 @@
                   </g>
                 </g>
               </svg>
-            </div>
-            <div class="slide_buttons"></div>
-            <div class="next_btn" title="Next">
-              <svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="Capa_1" x="0px" y="0px"
-                   viewBox="0 0 477.175 477.175" xml:space="preserve"
-                   width="512px" height="512px">
+        </div>
+        <div class="slide_buttons"></div>
+        <div class="next_btn" title="Next">
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="Capa_1" x="0px" y="0px"
+               viewBox="0 0 477.175 477.175" xml:space="preserve"
+               width="512px" height="512px">
                 <g>
                   <g>
                     <path
@@ -69,11 +67,9 @@
                   </g>
                 </g>
               </svg>
-            </div>
-          </div>
-        </section>
+        </div>
       </div>
-    </div>
+    </section>
   </div>
 </div>
 

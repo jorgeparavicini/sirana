@@ -1,10 +1,6 @@
 @use 'media';
 
-.team {
-  .center {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
+#team {
 
   #teamWrapper {
     margin: 20px auto 50px auto;
@@ -58,14 +54,13 @@
   }
 
   .title {
-    margin-left: 20px;
+    margin-top: 80px;
     text-transform: uppercase;
     text-align: left;
     color: #f3b09a;
   }
 
   .slideshow {
-    margin-left: 20px;
     margin-bottom: 50px;
 
     p {

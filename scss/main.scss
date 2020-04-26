@@ -159,10 +159,14 @@ h3 {
 }
 
 .button {
-  padding: 30px 50px;
+  padding: 20px 20px;
   margin: 50px auto;
   background-color: variables.$secondary-background-color;
   transition: background-color 0.5s ease;
+
+  @include media.small {
+    padding: 30px 50px;
+  }
 
   &:hover {
     background-color: variables.$title-color;

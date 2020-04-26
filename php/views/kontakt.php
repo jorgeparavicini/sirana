@@ -1,45 +1,41 @@
-<div class="kontakt">
-  <div class="page">
-    <div class="pageContent">
-      <h2 class="title">Kontakt</h2>
-      <p>Sind Sie neugierig? Kontaktieren Sie uns ganz einfach über das Kontaktformular und lassen Sie uns Ihre Wünsche
-        wissen.</p>
-      <form action="kontakt_form" method="POST" id="contactForm">
-        <div class="row">
-          <div class="column half">
-            <label for="vorname"></label>
-            <input type="text" placeholder="Vorname" id="vorname" name="vorname">
-          </div>
-          <div class="column half">
-            <label for="nachname"></label>
-            <input type="text" placeholder="Nachname" id="nachname" name="nachname">
-          </div>
-        </div>
-        <div class="row">
-          <div class="column">
-            <label for="email"></label>
-            <input type="text" placeholder="Email" id="email" name="email">
-          </div>
-        </div>
-        <div class="row">
-          <div class="column">
-            <label for="betreff"></label>
-            <input type="text" placeholder="Betreff" id="betreff" name="betreff">
-          </div>
-        </div>
-        <div class="row expand">
-          <div class="column">
-            <label for="nachricht"></label>
-            <textarea id="nachricht" placeholder="Nachricht" name="nachricht"></textarea>
-          </div>
-        </div>
-        <div class="row">
-          <input type="submit" value="Senden">
-        </div>
-      </form>
-      <img src="/img/staticFruits/1-32.png" alt="Kirsche" class="krisi">
+<div class="pageContent" id="kontakt">
+  <h3>Kontakt</h3>
+  <p>Sind Sie neugierig? Kontaktieren Sie uns ganz einfach über das Kontaktformular und lassen Sie uns Ihre Wünsche
+    wissen.</p>
+  <form action="kontakt_form" method="POST" id="contactForm">
+    <div class="row">
+      <div class="column half">
+        <label for="vorname"></label>
+        <input type="text" placeholder="Vorname" id="vorname" name="vorname">
+      </div>
+      <div class="column half">
+        <label for="nachname"></label>
+        <input type="text" placeholder="Nachname" id="nachname" name="nachname">
+      </div>
     </div>
-  </div>
+    <div class="row">
+      <div class="column">
+        <label for="email"></label>
+        <input type="text" placeholder="Email" id="email" name="email">
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <label for="betreff"></label>
+        <input type="text" placeholder="Betreff" id="betreff" name="betreff">
+      </div>
+    </div>
+    <div class="row expand">
+      <div class="column">
+        <label for="nachricht"></label>
+        <textarea id="nachricht" placeholder="Nachricht" name="nachricht"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Senden">
+    </div>
+  </form>
+  <img src="/img/staticFruits/1-32.png" alt="Kirsche" class="krisi">
 </div>
 
 <script src="/js/jquery.validate.min.js"></script>
