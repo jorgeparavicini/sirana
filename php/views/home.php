@@ -19,7 +19,7 @@ require_once "{$_SERVER['DOCUMENT_ROOT']}/php/models/Resources.php";
     <p class="quote">"Wir teilen mit Ihnen die Leidenschaft für Ihren Anlass"</p>
     <!--          <img class="fruit" src="-->
     <?php //echo Resources::getRandomStaticFruit() ?><!--" alt="Fruit">-->
-    <div class="banner">
+    <div id="philosophie" class="banner">
       <h3>Unsere Philosophie</h3>
       <p>Familie, Freunde und die Leidenschaft für gutes Essen sind ein grosser Teil unserer Philosophy und bilden
         den Ursprung unserer Unternehmung. Kleine Familienfesten und Anlässe mit Freunden bringen den Ball ins

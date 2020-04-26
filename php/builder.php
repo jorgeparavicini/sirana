@@ -1,6 +1,6 @@
 <?php
 
-function build(string $fileName)
+function build(string $fileName, bool $buildFront = false)
 {
   ?>
   <!DOCTYPE html>
@@ -15,8 +15,7 @@ function build(string $fileName)
 // BODY
   echo "<body>";
 
-  if (!isset($_SESSION['visited']) || $_SESSION['visited'] === false) {
-    $_SESSION['visited'] = true;
+  if ($buildFront) {
     require_once "{$_SERVER['DOCUMENT_ROOT']}/php/static/firstPage.php";
   }
 
@@ -27,6 +26,8 @@ function build(string $fileName)
 } else {
   include_once "{$_SERVER['DOCUMENT_ROOT']}/php/views/404.php";
 }
+
+  require_once "{$_SERVER['DOCUMENT_ROOT']}/php/static/footer.php";
   echo "</body>";
   echo "</html>";
 }

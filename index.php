@@ -14,7 +14,7 @@ $extension = pathinfo($uri, PATHINFO_EXTENSION);
 if (!empty($path) && $path !== "/") {
   switch ($path) {
     case 'home':
-      build("home.php");
+      build("home.php", true);
       break;
 
     case 'angebot':

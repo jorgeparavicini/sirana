@@ -9,6 +9,7 @@
 @use 'fonts';
 @use 'variables';
 @use 'home';
+@use 'footer';
 
 body {
   display: flex;
@@ -55,6 +56,7 @@ a {
   letter-spacing: 5px;
   margin: 20px 0;
   cursor: pointer;
+  font-weight: lighter;
 }
 
 h1 {
@@ -148,7 +150,6 @@ h3 {
   background-color: #f3e9e7;
   margin-left: -12.5%;
   padding: 40px 10vw;
-  margin-top: 140px;
 
   @include media.extra-large {
     margin-left: calc((-100vw + 1000px) / 2);

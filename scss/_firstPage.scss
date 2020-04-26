@@ -1,5 +1,5 @@
 #overlay {
-  position: absolute;
+  position: fixed;
   width: 100vw;
   height: 100vh;
   top: 0;
@@ -7,6 +7,7 @@
   z-index: 1000;
   background-color: white;
   transition: all 1s ease;
+  display: flex;
 
   .animation {
     max-width: 60%;
@@ -30,6 +31,12 @@
       max-height: 0;
       opacity: 0;
     }
+  }
+
+  #logo {
+    height: 90px;
+    width: auto;
+    margin: 30px auto;
   }
 }
 

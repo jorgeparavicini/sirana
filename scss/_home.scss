@@ -3,7 +3,12 @@
 #home {
 
   h1 {
-    margin-top: 80px;
+    margin-top: 50px;
+    margin-bottom: 0;
+
+    @include media.medium {
+      margin-top: 80px;
+    }
   }
 
   h2 {
@@ -25,8 +30,22 @@
     }
   }
 
+  #philosophie {
+    margin-top: 140px;
+  }
+
   .pink {
     background-color: #f3e9e7;
+  }
+
+  .split {
+    h3 {
+      margin-top: 40px;
+
+      @include media.small {
+        margin-top: 0;
+      }
+    }
   }
 
 }
