@@ -1,6 +1,15 @@
 @use 'media';
 
 #home {
+
+  h1 {
+    margin-top: 80px;
+  }
+
+  h2 {
+    margin-top: 40px;
+  }
+
   .mainImage {
     margin-left: -12.5%;
     height: 40vh;

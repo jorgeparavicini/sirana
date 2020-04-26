@@ -1,33 +1,9 @@
 @use 'media';
 
-.angebot {
-
-  .intro {
-    margin: 0 0 40px;
-
-    .subtitle {
-      color: #f3b09a;
-      font-style: normal;
-    }
-
-    .title {
-      margin-bottom: 50px;
-      margin-left: -10%;
-      margin-right: -10%;
-    }
-  }
-
+#angebot {
   .angebotBilder {
-    box-sizing: border-box;
-    width: 100vw;
-    background-color: #e7f3e5;
-    margin-left: -12.5%;
+    padding: 0;
     margin-bottom: 100px;
-    display: flex;
-
-    @include media.extra-large {
-      margin-left: -50%;
-    }
 
     @media not screen and (min-width: 1200px) {
       .content {
@@ -324,26 +300,6 @@
           }
         }
       }
-    }
-  }
-
-  .events {
-    &.hidden {
-      display: none;
-    }
-    display: flex;
-    flex-flow: column;
-
-    a {
-      display: inline-block;
-      box-sizing: border-box;
-      background-color: #f4b8a4;
-      color: white;
-      font-weight: 500;
-    }
-
-    a:hover {
-      background-color: #ef9476;
     }
   }
 

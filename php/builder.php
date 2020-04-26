@@ -11,8 +11,9 @@ function build(string $fileName)
   require_once "{$_SERVER['DOCUMENT_ROOT']}/php/static/head.php";
   build_head($fileName);
   ?>
-  </html>
   <?php
+// BODY
+  echo "<body>";
 
   if (!isset($_SESSION['visited']) || $_SESSION['visited'] === false) {
     $_SESSION['visited'] = true;
@@ -21,15 +22,13 @@ function build(string $fileName)
 
   require_once "{$_SERVER['DOCUMENT_ROOT']}/php/static/header.php";
 
-
-// BODY
-  echo "<body>";
   if (file_exists("{$_SERVER['DOCUMENT_ROOT']}/php/views/{$fileName}")) {
   include_once "{$_SERVER['DOCUMENT_ROOT']}/php/views/{$fileName}";
 } else {
   include_once "{$_SERVER['DOCUMENT_ROOT']}/php/views/404.php";
 }
   echo "</body>";
+  echo "</html>";
 }
 
 ?>
