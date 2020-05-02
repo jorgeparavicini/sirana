@@ -25,15 +25,14 @@
             </div>
             <div class="infoValue">
               <p>
-                Sirana Catering bringt die Kulinarik zu Ihnen. Firmenessen, Aperos von klein bis gross sowie
-                private Feiern. Gehören allesamt zu unserem Catering Angebot.
+                Sirana Catering bringt die Kulinarik zu Ihnen. Firmenessen, Aperos sowie
+                private Feiern gehören allesamt zu unserem Catering Angebot.
                 <br/><br/>
-                Die saisonale Auswahl der Speisen sowie die
-                moderne und erfrischende Küche der Sirana Köche, lässt keine Wünsche offen.
-                <br/><br/>
-                Jeder Anlass ist ein neues Projekt, welches den Wünschen unserer Kunden angepasst wird. So
-                garantieren
-                wir Ihre Zufriedenheit.
+              
+              
+                Jeder Anlass ist ein neues Projekt mit unterschiedlichen Gegebenheiten und Anforderungen.
+ Damit wir auf Ihre individuellen Wünsche eingehen können, kontaktieren Sie uns und erhalten Sie ein auf Ihre Bedürfnisse angepasstes
+ Angebot. 
               </p>
             </div>
           </div>
@@ -60,10 +59,7 @@
                 <br/><br/>
                 Lassen Sie uns wissen, was Ihre Vorstellungen sind und wir organisieren für Sie das Ambiente,
                 die gewünschte Unterhaltung sowohl als auch die profesionelle Bedienung, die Sie sich wünschen.
-                <br/><br/>
-                Unser Motto für die Organisation von Events: Fühlen Sie sich wie Zuhause und lassen Sie sich
-                verwöhnen.
-              </p>
+               </p>
             </div>
           </div>
         </div>
@@ -88,7 +84,7 @@
                 Möchten Sie bei sich Zuhause in gelassener Runde zu Tisch einladen, mögen aber nicht selber kochen,
                 da Sie doch selbst den Abend geniessen möchten?
                 <br/><br/>
-                So kontaktieren Sie uns und wir kochen für Sie nach Ihren Wünschen bei Ihnen Zuhause.
+                So kontaktieren Sie uns und wir kochen für Sie, nach Ihren Wünschen bei Ihnen Zuhause.
               </p>
             </div>
           </div>
