@@ -1,6 +1,6 @@
 <div class="pageContent" id="kontakt">
   <h3>Kontakt</h3>
-  <p>Sind Sie neugierig? Kontaktieren Sie uns ganz einfach über das Kontaktformular und lassen Sie uns Ihre Wünsche
+  <p>Sind Sie neugierig? Kontaktieren Sie uns ganz einfach über das Kontaktformular oder rufen Sie uns an und lassen Sie uns Ihre Wünsche
     wissen.</p>
   <form action="kontakt_form" method="POST" id="contactForm">
     <div class="row">
