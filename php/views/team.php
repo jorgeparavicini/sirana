@@ -16,23 +16,21 @@
         <div class="slide_viewer">
           <div class="slide_group">
             <p class="slide">Zu einer solch dynamischen Branche gehört auch ein genauso dynamisches Team. Simon,
-              Raffael und Adriana - allesamt Absolvente der Hotelfachschule Belvoirpark in Zürich - sind
-              leidenschaftliche Gastgeber und überzeugen nicht nur durch ihre lebendige und frische Art sondern
+              Raffael und Adriana sind leidenschaftliche Gastgeber und Gastronomen. Sie überzeugen nicht nur durch ihre lebendige und frische Art, sondern
               auch durch die Kompetenz und das Fachwissen, welches sie mitbringen.</p>
             <p class="slide">
               <span class="title">Simon - </span> Das Arbeitstier, der Harmoniemensch und leidenschaftlicher
-              Gastgeber. Seine Lust und Neugier, Neues auszuprobieren und Gäste zufrieden zustellen, macht ihn
+              Gastgeber. Seine Lust und Neugier, Neues auszuprobieren und Gäste zu überraschen, macht ihn
               aus. Für die Einzigartigkeit und Perfektion eines Anlasses ist ihm keine Mühe zu gross.
             </p>
             <p class="slide">
-              <span class="title">Raffael - </span>Der Geniesser, kreativer Luftibus und steetig auf derr Suche nach
-              neuen Herausforderungen. Er bringt bereits einen vollen Topf an gastronomischen Erfahrungen mit, kennt
-              in Glarus Ein und die Welt und sorgt durch sein breites Fachwissen als Koch für das leibliche Wohl
+              <span class="title">Raffael - </span>Der Geniesser, kreativer Luftibus und stetig auf der Suche nach
+              neuen Herausforderungen. Er bringt bereits einen vollen Topf an gastronomischen Erfahrungen mit und sorgt durch sein breites Fachwissen für das leibliche Wohl
               unserer Gäste.
             </p>
             <p class="slide">
-              <span class="title">Adriana - </span>Die ruhige Hand, der koordiniereednde Kopf und das Auge fürs
-              Detail. Damit Gäste nicht kulinarisch verwöhnt werden, sondern auch von der räumlichen Gestaltung
+              <span class="title">Adriana - </span>Die ruhige Hand, der koordinierende Kopf und das Auge fürs
+              Detail. Damit Gäste nicht nur kulinarisch verwöhnt werden, sondern auch von der räumlichen Gestaltung
               überzeugt sind, kümmert sich Adriana liebevoll um alle dekorativen Details. Auch sie ist
               leidenschaftliche Gastgeberin und hat zudem ein organisatorisches Talent, sodass auch alle
               administrativen Tätigkeiten einwandfrei funktionieren.
