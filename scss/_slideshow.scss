@@ -6,9 +6,13 @@
     width: 100%;
 
     .slide_viewer {
-      height: 200px;
+      height: 400px;
       overflow: hidden;
       position: relative;
+
+      @include media.small {
+        height: 200px;
+      }
 
       .slide_group {
         height: 100%;

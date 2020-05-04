@@ -28,11 +28,12 @@
                 Sirana Catering bringt die Kulinarik zu Ihnen. Firmenessen, Aperos sowie
                 private Feiern gehören allesamt zu unserem Catering Angebot.
                 <br/><br/>
-              
-              
+
+
                 Jeder Anlass ist ein neues Projekt mit unterschiedlichen Gegebenheiten und Anforderungen.
- Damit wir auf Ihre individuellen Wünsche eingehen können, kontaktieren Sie uns und erhalten Sie ein auf Ihre Bedürfnisse angepasstes
- Angebot. 
+                Damit wir auf Ihre individuellen Wünsche eingehen können, kontaktieren Sie uns und erhalten Sie ein auf
+                Ihre Bedürfnisse angepasstes
+                Angebot.
               </p>
             </div>
           </div>
@@ -59,7 +60,7 @@
                 <br/><br/>
                 Lassen Sie uns wissen, was Ihre Vorstellungen sind und wir organisieren für Sie das Ambiente,
                 die gewünschte Unterhaltung sowohl als auch die profesionelle Bedienung, die Sie sich wünschen.
-               </p>
+              </p>
             </div>
           </div>
         </div>
@@ -92,9 +93,11 @@
       </div>
     </div>
   </div>
-  <p>Sind Sie noch auf der Suche nach einer passenden Eventlokalität? Dann lassen Sie sich von unseren
-    Räumlichkeiten und Partnern inspirieren.</p>
-  <a class="button" href="#">Eventlokalitäten</a>
+  <div class="hidden">
+    <p>Sind Sie noch auf der Suche nach einer passenden Eventlokalität? Dann lassen Sie sich von unseren
+      Räumlichkeiten und Partnern inspirieren.</p>
+    <a class="button" href="#">Eventlokalitäten</a>
+  </div>
 </div>
 
 <script>

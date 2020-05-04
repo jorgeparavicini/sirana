@@ -62,6 +62,11 @@
 
         a {
           margin: 0 10px;
+
+          @media (-webkit-max-device-pixel-ratio: 1) {
+            margin: 0 5px;
+            font-size: 1em;
+          }
         }
       }
     }

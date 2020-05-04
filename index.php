@@ -38,5 +38,5 @@ if (!empty($path) && $path !== "/") {
       break;
   }
 } else {
-  build("home.php");
+  build("home.php", true);
 }
