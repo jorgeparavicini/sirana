@@ -1,18 +1,93 @@
 @use 'variables';
+@use 'media';
 
 footer {
   margin-top: 140px;
-  height: 150px;
+  //height: 150px;
   width: 100vw;
 
   background-color: variables.$title-color;
 
   display: flex;
-  flex-flow: row;
-  justify-content: center;
+  flex-flow: column;
+  justify-content: space-evenly;
+
+  @include media.small {
+    flex-flow: row;
+  }
+
+  > div {
+    margin: 30px auto;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+  }
 
   a {
     font-size: 1em;
-    margin: auto 30px;
+    margin: auto 10px;
+    display: inline;
+  }
+
+  h5 {
+    text-transform: uppercase;
+    text-align: left;
+    margin: auto auto 10px auto;
+    font-weight: normal;
+    letter-spacing: 2px;
+    font-size: 1.1em;
+  }
+
+  address {
+    margin: auto;
+    text-align: left;
+    font-style: normal;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+  }
+
+  .column {
+    flex-flow: column;
+
+    > div {
+      display: flex;
+      justify-content: center;
+    }
+
+    img {
+      width: auto;
+      height: auto;
+    }
+  }
+
+  .icons8 {
+    width: 100%;
+
+    * {
+      font-size: 0.8em;
+      margin: 0;
+      letter-spacing: 1px;
+    }
+  }
+
+  .legal {
+    width: 170px;
+  }
+
+  .left {
+    text-align: left;
+  }
+
+  .right {
+    text-align: right;
+  }
+
+  #center {
+    order: -1;
+    @include media.small {
+      order: 0;
+    }
   }
 }
