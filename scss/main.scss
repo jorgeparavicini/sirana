@@ -43,7 +43,7 @@ p {
   letter-spacing: 2px;
   margin: 0;
 
-  @include media.large {
+  @include media.largest {
     font-size: 1.1em;
     line-height: 40px;
   }
@@ -72,6 +72,10 @@ h1 {
   }
 
   @include media.large {
+    font-size: 2.5em;
+  }
+
+  @include media.largest {
     font-size: 3em;
   }
 }
@@ -87,7 +91,7 @@ h2 {
     font-size: 1.75em;
   }
 
-  @include media.large {
+  @include media.largest {
     font-size: 2em;
   }
 }
@@ -103,10 +107,10 @@ h3 {
   font-weight: lighter;
 
   @include media.medium {
-    font-size: 2.2em;
+    font-size: 2em;
   }
 
-  @include media.large {
+  @include media.largest {
     font-size: 2.5em;
   }
 }
@@ -120,6 +124,10 @@ h3 {
   display: flex;
   flex-flow: column;
 
+  @include media.large {
+    width: 60%;
+  }
+
   @include media.extra-large {
     margin-top: variables.$header-height-desktop;
   }
@@ -131,13 +139,14 @@ h3 {
   padding-right: 50px;
   padding-left: 50px;
   font-size: 1.3em;
+  line-height: 180%;
 
   @include media.medium {
     font-size: 1.6em;
     font-weight: lighter;
   }
 
-  @include media.large {
+  @include media.largest {
     font-size: 1.8em;
   }
 }
@@ -146,13 +155,13 @@ h3 {
   box-sizing: border-box;
   width: 100vw;
   background-color: variables.$secondary-background-color;
-  margin-left: -12.5%;
+  margin-left: min(-10vw, calc((-100vw + 1000px) / 2));
   padding: 40px 10vw;
 
-  @include media.extra-large {
-    margin-left: calc((-100vw + 1000px) / 2);
-    padding-left: calc((100vw - 1000px) / 2);
-    padding-right: calc((100vw - 1000px) / 2);
+  @include media.large {
+    margin-left: min(-20vw, calc((-100vw + 1000px) / 2));
+    padding-left: max(20vw, calc((100vw - 1000px) / 2));
+    padding-right: max(20vw, calc((100vw - 1000px) / 2));
   }
 }
 

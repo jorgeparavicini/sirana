@@ -31,14 +31,14 @@ require_once "{$_SERVER['DOCUMENT_ROOT']}/php/models/Resources.php";
 
     <div class="split">
       <div class="left">
-        <h3>Unser Kochstil</h3>
+        <h3>Unser <br/> Kochstil</h3>
         <p>Mit frischen Zutaten kreieren wir saisonale Gerichte mit internationalem Touch,
           die Sie auf eine kulinarische Reise mitnehmen. Wir servieren Speisen, die Freude bereiten und geschmacklich
           sowie visuell überzeugen.
           Bei der Menübesprechung Ihres Events, gehen wir voll und ganz auf Ihre Wünsche ein.</p>
 
       </div>
-      <img src="/img/frei.png" alt="Frei" class="right pink">
+      <img src="/img/frei.png" alt="Frei" class="right pink square">
     </div>
 
     <p class="quote">Lassen Sie uns also wissen, mit welchen Gerichten wir Ihnen eine besondere Freude
