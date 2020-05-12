@@ -5,10 +5,6 @@
 
   h3 {
     margin-top: 40px;
-
-    @include media.small {
-      margin-top: 120px;
-    }
   }
 
   .angebotBilder {
@@ -154,8 +150,8 @@
 
     @include media.extra-large {
       .content {
-        height: 50vh;
-        min-height: 700px;
+        height: 70vh;
+        max-height: 700px;
         margin: 0 auto;
         width: 60%;
         min-width: 900px;
