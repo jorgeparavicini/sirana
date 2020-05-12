@@ -10,7 +10,7 @@
     </div>
   </div>
   <div class="aboutUs">
-    <h3 class="title">Das Team</h3>
+    <h3 class="title">DAS TEAM</h3>
     <section class="slideshow">
       <div class="slider">
         <div class="slide_viewer">
