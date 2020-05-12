@@ -1,7 +1,7 @@
 function initializeGallery(i, gallery) {
   let $group = $(gallery).find('.slide_group');
   let $slides = $(gallery).find('.slide');
-  let time = 7000;
+  let time = 30000;
   let bulletArray = [];
   let currentIndex = 0;
   let timeout;

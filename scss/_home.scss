@@ -6,7 +6,7 @@
     margin-top: 50px;
     margin-bottom: 0;
 
-    @include media.medium {
+    @include media.largest {
       margin-top: 80px;
     }
   }
@@ -21,6 +21,13 @@
     object-fit: cover;
 
     @include media.extra-large {
+      height: 60vh;
+    }
+
+    @include media.largest {
+      width: 1200px;
+      margin-left: -100px;
+      margin-right: auto;
       height: 60vh;
     }
   }
@@ -56,7 +63,6 @@
       object-fit: contain;
     }
   }
-
 
 
 }

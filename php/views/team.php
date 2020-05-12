@@ -2,10 +2,10 @@
   <div class="center">
     <div id="teamWrapper">
       <div class="teamSirana" id="teamImg">
-        <img src="/img/staff.jpg" alt="Staff" class="staff">
-        <img src="/img/logos/Sirana%20Logo%20aufgeteilt/Sirana_Logo_SI_gruen.png" alt="SI" class="si">
-        <img src="/img/logos/Sirana%20Logo%20aufgeteilt/Sirana_Logo_RA_gruen.png" alt="RA" class="ra">
-        <img src="/img/logos/Sirana%20Logo%20aufgeteilt/Sirana_Logo_NA_gruen.png" alt="NA" class="na">
+        <img src="/img/Fotoshoot/IMG_7353-2-min.jpg" alt="Staff" class="staff">
+        <img src="/img/logos/Sirana_Logo_aufgeteilt/Sirana_Logo_SI_rot.png" alt="SI" class="si">
+        <img src="/img/logos/Sirana_Logo_aufgeteilt/Sirana_Logo_RA_rot.png" alt="RA" class="ra">
+        <img src="/img/logos/Sirana_Logo_aufgeteilt/Sirana_Logo_NA_rot.png" alt="NA" class="na">
       </div>
     </div>
   </div>
@@ -40,7 +40,7 @@
       </div>
       <div class="directional_nav">
         <div class="previous_btn" title="Previous">
-          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="Capa_1" x="0px" y="0px"
+          <svg xmlns="http://www.w3.org/2000/svg" id="Capa_1" x="0px" y="0px"
                viewBox="0 0 477.175 477.175" xml:space="preserve"
                width="512px" height="512px">
                 <g>
@@ -54,7 +54,7 @@
         </div>
         <div class="slide_buttons"></div>
         <div class="next_btn" title="Next">
-          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="Capa_1" x="0px" y="0px"
+          <svg xmlns="http://www.w3.org/2000/svg" id="Capa_1" x="0px" y="0px"
                viewBox="0 0 477.175 477.175" xml:space="preserve"
                width="512px" height="512px">
                 <g>

@@ -4,10 +4,6 @@
 
   h3 {
     margin-top: 40px;
-
-    @include media.small {
-      margin-top: 120px;
-    }
   }
 
   form {

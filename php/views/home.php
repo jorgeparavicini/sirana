@@ -4,7 +4,7 @@ require_once "{$_SERVER['DOCUMENT_ROOT']}/php/models/Resources.php";
   <div class="pageContent" id="home">
     <img class="mainImage" src="/img/main.JPG" alt="Koch">
     <h1 class="title main top-space">Gastgeber aus Leidenschaft</h1>
-    <h2>freude & genuss wo immer sie sind</h2>
+    <h2>"Freude & Genuss wo immer Sie sind"</h2>
 
     <div class="split">
       <div class="left">

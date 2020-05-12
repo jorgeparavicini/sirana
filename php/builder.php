@@ -4,7 +4,7 @@ function build(string $fileName, bool $buildFront = false)
 {
   ?>
   <!DOCTYPE html>
-  <html lang="en">
+  <html lang="de">
   <?php
 
   // HEAD
