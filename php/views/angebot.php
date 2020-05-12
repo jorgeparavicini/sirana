@@ -59,8 +59,8 @@
                 Sirana Catering bietet nicht nur eine kulinarische Verpflegung, sondern packt für Sie an.
                 <br/><br/>
                 Lassen Sie uns wissen, was Ihre Vorstellungen sind und wir organisieren für Sie das Ambiente,
-                die gewünschte Unterhaltung sowohl als auch die profesionelle Bedienung, die Sie sich wünschen.
-              </p>
+                die gewünschte Unterhaltung sowohl als auch die professionelle Bedienung, die Sie sich wünschen.
+               </p>
             </div>
           </div>
         </div>
@@ -82,8 +82,8 @@
             </div>
             <div class="infoValue">
               <p>
-                Möchten Sie bei sich Zuhause in gelassener Runde zu Tisch einladen, mögen aber nicht selber kochen,
-                da Sie doch selbst den Abend geniessen möchten?
+                Möchten Sie bei sich Zuhause in gelassener Runde zu Tisch einladen, mögen aber nicht selbst kochen,
+                da Sie doch den Abend geniessen möchten?
                 <br/><br/>
                 So kontaktieren Sie uns und wir kochen für Sie, nach Ihren Wünschen bei Ihnen Zuhause.
               </p>
