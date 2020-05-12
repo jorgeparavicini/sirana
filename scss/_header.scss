@@ -62,7 +62,15 @@
         transform: none;
 
         a {
-          margin: 0 10px;
+          margin: 0 5px;
+          font-size: 1.15em;
+          letter-spacing: 3px;
+
+          @include media.largest {
+            margin: 0 10px;
+            font-size: 1.25em;
+            letter-spacing: 5px;
+          }
 
           @media (-webkit-max-device-pixel-ratio: 1) {
             margin: 0 5px;

@@ -16,18 +16,26 @@
   }
 
   .mainImage {
-    margin-left: -12.5%;
     height: 40vh;
-    width: 100vw;
-    max-width: 100vw;
+    width: 100%;
     object-fit: cover;
 
     @include media.extra-large {
-      width: 1200px;
-      margin-left: -100px;
-      margin-right: auto;
       height: 60vh;
     }
+
+      /*margin-left: -12.5%;
+      height: 40vh;
+      width: 100vw;
+      max-width: 100vw;
+      object-fit: cover;
+
+      @include media.extra-large {
+        width: 1200px;
+        margin-left: -100px;
+        margin-right: auto;
+        height: 60vh;
+      }*/
   }
 
   #philosophie {

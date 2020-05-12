@@ -113,17 +113,15 @@ h3 {
 
 .pageContent {
   margin-top: variables.$header-height-mobile;
-  margin-right: 10%;
-  margin-left: 10%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  max-width: 1000px;
   display: flex;
   flex-flow: column;
 
   @include media.extra-large {
-    margin-right: auto;
-    margin-left: auto;
     margin-top: variables.$header-height-desktop;
-
-    width: 1000px;
   }
 }
 
