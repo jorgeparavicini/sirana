@@ -11,7 +11,33 @@
       <div class="angebotContent">
         <div class="angebotInfo">
           <div class="front">
-            <img src="/img/angebot/angebot1.jpg" alt="Angebot Catering">
+            <img src="/img/Fotoshoot/IMG_7021.jpg" alt="Angebot Störkoch">
+            <div class="forwarder">
+              <p>Störkoch</p>
+              <span class="arrow active large">
+                    <span></span>
+                    <span></span>
+                  </span>
+              <span class="arrow active small">
+                    <span></span>
+                    <span></span>
+                  </span>
+            </div>
+            <div class="infoValue">
+              <p>
+                Möchten Sie bei sich Zuhause in gelassener Runde zu Tisch einladen, mögen aber nicht selbst kochen,
+                da Sie doch den Abend geniessen möchten?
+                <br/><br/>
+                So kontaktieren Sie uns und wir kochen für Sie, nach Ihren Wünschen bei Ihnen Zuhause.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="angebotContent">
+        <div class="angebotInfo">
+          <div class="front">
+            <img src="/img/Fotoshoot/IMG_6981-3.jpg" alt="Angebot Catering">
             <div class="forwarder">
               <p>Catering</p>
               <span class="arrow active large">
@@ -42,7 +68,7 @@
       <div class="angebotContent">
         <div class="angebotInfo">
           <div class="front">
-            <img src="/img/angebot/angebot3.jpg" alt="Angebot Eventservice">
+            <img src="/img/Fotoshoot/IMG_7146.jpg" alt="Angebot Eventservice">
             <div class="forwarder">
               <p>Eventservice</p>
               <span class="arrow active large">
@@ -61,32 +87,6 @@
                 Lassen Sie uns wissen, was Ihre Vorstellungen sind und wir organisieren für Sie das Ambiente,
                 die gewünschte Unterhaltung sowohl als auch die professionelle Bedienung, die Sie sich wünschen.
                </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="angebotContent">
-        <div class="angebotInfo">
-          <div class="front">
-            <img src="/img/angebot/angebot2.jpg" alt="Angebot Störkoch">
-            <div class="forwarder">
-              <p>Störkoch</p>
-              <span class="arrow active large">
-                    <span></span>
-                    <span></span>
-                  </span>
-              <span class="arrow active small">
-                    <span></span>
-                    <span></span>
-                  </span>
-            </div>
-            <div class="infoValue">
-              <p>
-                Möchten Sie bei sich Zuhause in gelassener Runde zu Tisch einladen, mögen aber nicht selbst kochen,
-                da Sie doch den Abend geniessen möchten?
-                <br/><br/>
-                So kontaktieren Sie uns und wir kochen für Sie, nach Ihren Wünschen bei Ihnen Zuhause.
-              </p>
             </div>
           </div>
         </div>

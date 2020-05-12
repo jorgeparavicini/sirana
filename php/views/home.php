@@ -38,7 +38,7 @@ require_once "{$_SERVER['DOCUMENT_ROOT']}/php/models/Resources.php";
           Bei der Menübesprechung Ihres Events, gehen wir voll und ganz auf Ihre Wünsche ein.</p>
 
       </div>
-      <img src="/img/frei.png" alt="Frei" class="right pink square">
+      <img src="/img/frei.png" alt="Shrimps" class="right pink square">
     </div>
 
     <p class="quote">Lassen Sie uns also wissen, mit welchen Gerichten wir Ihnen eine besondere Freude
