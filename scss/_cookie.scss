@@ -1,0 +1,26 @@
+@use 'media';
+
+.wpcc-container {
+  span {
+    font-size: 1em;
+    letter-spacing: 2px;
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: none;
+    display: inline;
+  }
+
+  .wpcc-compliance {
+    display: flex;
+    a {
+      display: inline-block;
+      font-weight: normal;
+      letter-spacing: 3px;
+      margin: auto;
+    }
+  }
+}

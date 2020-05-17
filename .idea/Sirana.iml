@@ -10,5 +10,6 @@
     <orderEntry type="library" name="jquery.easing" level="application" />
     <orderEntry type="library" name="xhq6pkb" level="application" />
     <orderEntry type="library" name="sdk" level="application" />
+    <orderEntry type="library" name="cookieconsent" level="application" />
   </component>
 </module>

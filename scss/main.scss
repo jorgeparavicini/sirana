@@ -11,6 +11,7 @@
 @use 'home';
 @use 'footer';
 @use 'legal';
+@use 'cookie';
 
 body {
   display: flex;
@@ -32,7 +33,7 @@ img {
   height: 100%;
 }
 
-a, p, h1, h2, h3, h4, h5, h6, li {
+a, p, h1, h2, h3, h4, h5, h6, li, span {
   text-align: center;
   font-family: neue-haas-grotesk-display, sans-serif;
   color: black;
