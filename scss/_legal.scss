@@ -1,0 +1,28 @@
+@use 'media';
+@use 'variables';
+
+#legal {
+
+  p {
+    text-align: justify;
+    &.not-justify{
+      text-align: center;
+    }
+  }
+
+  li {
+    text-align: left;
+  }
+
+  a {
+    font-size: 1em;
+    letter-spacing: 2px;
+    margin: 0;
+    color: variables.$title-color;
+
+    @include media.largest {
+      font-size: 1.1em;
+      line-height: 40px;
+    }
+  }
+}

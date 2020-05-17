@@ -8,13 +8,13 @@
   </div>
   <div class="column" id="center">
     <div>
-      <a href=""><img src="https://img.icons8.com/ios-glyphs/30/000000/facebook-new.png" alt="Facebook"/></a>
-      <a href=""><img src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png" alt="Instagram"/></a>
-      <a href=""><img src="https://img.icons8.com/ios-glyphs/30/000000/phone--v1.png" alt="Telephone"/></a>
+      <a href="https://www.facebook.com/siranacatering"><img src="https://img.icons8.com/ios-glyphs/30/000000/facebook-new.png" alt="Facebook"/></a>
+      <a href="https://www.instagram.com/siranacatering/"><img src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png" alt="Instagram"/></a>
+      <a href="tel:+41794774040"><img src="https://img.icons8.com/ios-glyphs/30/000000/phone--v1.png" alt="Telephone"/></a>
     </div>
     <div>
-      <a href="" class="legal right">Impressum</a>
-      <a href="" class="legal left">Datenschutz</a>
+      <a href="impressum" class="legal right">Impressum</a>
+      <a href="datenschutz" class="legal left">Datenschutz</a>
     </div>
     <div class="icons8">
       <p>Icons provided by
