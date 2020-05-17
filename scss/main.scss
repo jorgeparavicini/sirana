@@ -156,11 +156,9 @@ h3 {
   box-sizing: border-box;
   width: 100vw;
   background-color: variables.$secondary-background-color;
-  margin-left: min(-10vw, calc((-100vw + 1000px) / 2));
   padding: 40px 10vw;
 
   @include media.large {
-    margin-left: min(-20vw, calc((-100vw + 1000px) / 2));
     padding-left: max(20vw, calc((100vw - 1000px) / 2));
     padding-right: max(20vw, calc((100vw - 1000px) / 2));
   }

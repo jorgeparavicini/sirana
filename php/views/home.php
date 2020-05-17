@@ -2,7 +2,7 @@
 require_once "{$_SERVER['DOCUMENT_ROOT']}/php/models/Resources.php";
 ?>
   <div class="pageContent" id="home">
-    <img class="mainImage" src="/img/main.JPG" alt="Koch">
+    <img class="mainImage" src="/img/Fotoshoot/IMG_7120.jpg" alt="Koch">
     <h1 class="title main top-space">Gastgeber aus Leidenschaft</h1>
     <h2>"Freude & Genuss wo immer Sie sind"</h2>
 
