@@ -1,5 +1,12 @@
-.kontaktForm {
+#kontaktForm {
+  .center {
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+  }
   .button {
     display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

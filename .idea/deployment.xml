@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="Sirana" createEmptyFolders="true">
+  <component name="PublishConfigData" autoUpload="Always" serverName="Sirana" createEmptyFolders="true" exclude=".svn;.cvs;.idea;.DS_Store;.git;.hg;*.hprof;*.pyc,.gitignore,.gitattributes,.editorconfig">
     <serverData>
       <paths name="Sirana">
         <serverdata>
@@ -14,6 +14,17 @@
           <mappings>
             <mapping deploy="www/sirana.ch" local="$PROJECT_DIR$" web="/" />
           </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/scss" />
+            <excludedPath local="true" path="$PROJECT_DIR$/.editorconfig" />
+            <excludedPath local="true" path="$PROJECT_DIR$/.gitattributes" />
+            <excludedPath local="true" path="$PROJECT_DIR$/.gitignore" />
+            <excludedPath local="true" path="$PROJECT_DIR$/package-lock.json" />
+            <excludedPath local="true" path="$PROJECT_DIR$/package.json" />
+            <excludedPath local="true" path="$PROJECT_DIR$/js_dev" />
+            <excludedPath local="true" path="$PROJECT_DIR$/node_modules" />
+            <excludedPath local="true" path="$PROJECT_DIR$/img/.gitignore" />
+          </excludedPaths>
         </serverdata>
       </paths>
     </serverData>

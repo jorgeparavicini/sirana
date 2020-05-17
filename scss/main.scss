@@ -117,13 +117,12 @@ h3 {
 }
 
 .pageContent {
-  margin-top: variables.$header-height-mobile;
-  margin-right: auto;
-  margin-left: auto;
   width: 80%;
   max-width: 1000px;
   display: flex;
   flex-flow: column;
+  margin: variables.$header-height-mobile auto 100px;
+  flex-grow: 1;
 
   @include media.large {
     width: 60%;

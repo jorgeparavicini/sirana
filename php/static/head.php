@@ -5,6 +5,16 @@ function build_head(string $file)
   $filename = pathinfo($file, PATHINFO_FILENAME);
   ?>
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166849267-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-166849267-1');
+    </script>
+
     <title><?php echo ucfirst($filename) ?> | Sirana </title>
 
     <meta charset="UTF-8">

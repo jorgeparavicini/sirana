@@ -65,15 +65,11 @@ if (!mail("info@sirana.ch", $betreff, $nachricht, $headers)) {
 function displayError($errorMsg)
 {
   ?>
-  <div class="kontaktForm">
-    <div class="page">
-      <div class="pageContent">
-        <div class="center">
-          <h2 class="title">Leider hat das nicht geklappt</h2>
-          <p><?php echo $errorMsg ?></p>
-          <a href="javascript:history.back()" class="button">Zurück</a>
-        </div>
-      </div>
+  <div class="pageContent" id="kontaktForm">
+    <div class="center">
+      <h2 class="title">Leider hat das nicht geklappt</h2>
+      <p><?php echo $errorMsg ?></p>
+      <a href="javascript:history.back()" class="button">Zurück</a>
     </div>
   </div>
   <?php
@@ -82,15 +78,11 @@ function displayError($errorMsg)
 function displaySuccess()
 {
   ?>
-  <div class="kontaktForm">
-    <div class="page">
-      <div class="pageContent">
-        <div class="center">
-          <h2 class="title">Ihre Nachricht wurde gesendet</h2>
-          <p>Wir werden uns so rasch wie möglich bei Ihnen melden.</p>
-          <a href="home" class="button">Zurück</a>
-        </div>
-      </div>
+  <div class="pageContent" id="kontaktForm">
+    <div class="center">
+      <h2 class="title">Ihre Nachricht wurde gesendet</h2>
+      <p>Wir werden uns so rasch wie möglich bei Ihnen melden.</p>
+      <a href="home" class="button">Zurück</a>
     </div>
   </div>
   <?php
