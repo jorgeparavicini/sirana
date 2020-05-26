@@ -1,6 +1,6 @@
 <?php
 
-function build_head(string $file)
+function build_head(string $file, string $title)
 {
   $filename = pathinfo($file, PATHINFO_FILENAME);
   ?>
@@ -19,12 +19,10 @@ function build_head(string $file)
       gtag('config', 'UA-166849267-1');
     </script>
 
-    <title><?php echo ucfirst($filename) ?> | Sirana </title>
+    <title><?php echo $title?></title>
 
     <meta charset="UTF-8">
-    <?php // TODO: Implement
-    ?>
-    <meta name="description" content="*CONTENT*">
+    <meta name="description" content="Gastgeber aus Leidenschaft">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#fafafa">
 
@@ -34,6 +32,7 @@ function build_head(string $file)
 
     <script src="/js/jquery.js"></script>
     <script src="/js/header.js"></script>
+    <script src="/js/facebook_displayer.js"></script>
 
     <link rel="stylesheet" type="text/css" href="//wpcc.io/lib/1.0.2/cookieconsent.min.css"/>
     <script src="//wpcc.io/lib/1.0.2/cookieconsent.min.js"></script>

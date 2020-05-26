@@ -76,4 +76,11 @@
       font-size: 1.4em;
     }
   }
+
+  .slide {
+    font-size: 0.8em;
+    @include media.small {
+      font-size: 1em;
+    }
+  }
 }

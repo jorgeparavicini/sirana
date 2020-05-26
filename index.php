@@ -10,37 +10,37 @@ $extension = pathinfo($uri, PATHINFO_EXTENSION);
 if (!empty($path) && $path !== "/") {
   switch ($path) {
     case 'home':
-      build("home.php", true);
+      build("home.php", "Sirana | Ihr Catering aus Glarus", true);
       break;
 
     case 'angebot':
-      build("angebot.php");
+      build("angebot.php", "Sirana | Angebot");
       break;
 
     case 'team':
-      build('team.php');
+      build('team.php', "Sirana | Team");
       break;
 
     case 'kontakt':
-      build('kontakt.php');
+      build('kontakt.php', "Sirana | Kontakt");
       break;
 
     case 'kontakt_form':
-      build('kontaktForm.php');
+      build('kontaktForm.php', "Sirana | KontaktForm");
       break;
 
     case 'datenschutz':
-      build('datenschutz.php');
+      build('datenschutz.php', "Sirana | Datenschutz");
       break;
 
     case 'impressum':
-      build('impressum.php');
+      build('impressum.php', "Sirana | Impressum");
       break;
 
     default:
-      build("404.php");
+      build("404.php", "Sirana | 404");
       break;
   }
 } else {
-  build("home.php", true);
+  build("home.php", "Sirana | Ihr Catering aus Glarus", true);
 }

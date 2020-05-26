@@ -26,7 +26,7 @@ require_once "{$_SERVER['DOCUMENT_ROOT']}/php/models/Resources.php";
         Ursprung unserer Unternehmung.
         Kleine Familienfeste und Anlässe mit Freunden bringen den Ball ins Rollen. Aus Hobby wird Leidenschaft, aus
         Leidenschaft wird Beruf -
-        und somit wird jeder Kunde und jeder Gast, Teil unserer Sirana-Familie.</p>
+        und somit wird jeder Kunde und jeder Gast Teil unserer Sirana-Familie.</p>
     </div>
 
     <div class="split">
@@ -35,7 +35,7 @@ require_once "{$_SERVER['DOCUMENT_ROOT']}/php/models/Resources.php";
         <p>Mit frischen Zutaten kreieren wir saisonale Gerichte mit internationalem Touch,
           die Sie auf eine kulinarische Reise mitnehmen. Wir servieren Speisen, die Freude bereiten und geschmacklich
           sowie visuell überzeugen.
-          Bei der Menübesprechung Ihres Events, gehen wir voll und ganz auf Ihre Wünsche ein.</p>
+          Bei der Menübesprechung Ihres Events gehen wir voll und ganz auf Ihre Wünsche ein.</p>
 
       </div>
       <img src="/img/frei.png" alt="Shrimps" class="right pink square">

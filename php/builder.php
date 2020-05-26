@@ -1,6 +1,6 @@
 <?php
 
-function build(string $fileName, bool $buildFront = false)
+function build(string $fileName, string $title, bool $buildFront = false)
 {
   ?>
   <!DOCTYPE html>
@@ -9,7 +9,7 @@ function build(string $fileName, bool $buildFront = false)
 
   // HEAD
   require_once "{$_SERVER['DOCUMENT_ROOT']}/php/static/head.php";
-  build_head($fileName);
+  build_head($fileName, $title);
   ?>
   <?php
 // BODY
@@ -21,7 +21,7 @@ function build(string $fileName, bool $buildFront = false)
   <script>
     window.fbAsyncInit = function() {
       FB.init({
-        xfbml            : true,
+        xfbml            : false,
         version          : 'v7.0'
       });
     };
@@ -39,6 +39,7 @@ function build(string $fileName, bool $buildFront = false)
        attribution=setup_tool
        page_id="102937787893685"
        theme_color="#f3b09a"
+       greeting_dialog_display="hide"
        logged_in_greeting="Hallo? Wie kann ich Ihnen helfen?"
        logged_out_greeting="Hallo? Wie kann ich Ihnen helfen?">
   </div>

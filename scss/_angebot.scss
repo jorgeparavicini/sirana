@@ -86,7 +86,7 @@
                 padding: 10px 0;
                 margin: 0 auto;
                 background-color: white;
-                color: #f3b09a;
+                color: black;
                 overflow: hidden;
                 cursor: pointer;
                 transition: all 1s ease;
@@ -111,7 +111,7 @@
                   &.large {display: none;}
 
                   span {
-                    background-color: #f3b09a;
+                    background-color: black;
                   }
                 }
               }
@@ -243,7 +243,7 @@
                 padding: 10px 0;
                 margin: 0 auto;
                 background-color: white;
-                color: #f3b09a;
+                color: black;
                 overflow: hidden;
                 cursor: pointer;
                 transition: all 1s ease, background-color 0.5s ease;
@@ -257,7 +257,7 @@
                   font-size: 1.5em;
                   overflow: auto;
                   text-transform: uppercase;
-                  color: variables.$title-color;
+                  color: black;
                 }
 
                 .arrow {

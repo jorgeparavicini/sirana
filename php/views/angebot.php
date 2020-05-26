@@ -52,14 +52,11 @@
             <div class="infoValue">
               <p>
                 Sirana Catering bringt die Kulinarik zu Ihnen. Firmenessen, Aperos sowie
-                private Feiern gehören allesamt zu unserem Catering Angebot.
+                private Feiern gehören allesamt zu unserem Angebot.
                 <br/><br/>
-
-
                 Jeder Anlass ist ein neues Projekt mit unterschiedlichen Gegebenheiten und Anforderungen.
                 Damit wir auf Ihre individuellen Wünsche eingehen können, kontaktieren Sie uns und erhalten Sie ein auf
-                Ihre Bedürfnisse angepasstes
-                Angebot.
+                Ihre Bedürfnisse angepasstes Angebot.
               </p>
             </div>
           </div>

@@ -19,6 +19,7 @@ body {
   overflow-x: hidden;
   min-height: 100vh;
   width: 100vw;
+  background-color: white;
 }
 
 // TODO: make something nice
@@ -124,6 +125,7 @@ h3 {
   flex-flow: column;
   margin: variables.$header-height-mobile auto 100px;
   flex-grow: 1;
+  background-color: white;
 
   @include media.large {
     width: 60%;
