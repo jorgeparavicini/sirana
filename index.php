@@ -10,7 +10,7 @@ $extension = pathinfo($uri, PATHINFO_EXTENSION);
 if (!empty($path) && $path !== "/") {
   switch ($path) {
     case 'home':
-      build("home.php", "Sirana | Ihr Catering aus Glarus", true);
+      build("home.php", "Sirana | Ihr Anbieter für Catering, Eventservice und Störkoch aus Glarus", true);
       break;
 
     case 'angebot':
@@ -42,5 +42,5 @@ if (!empty($path) && $path !== "/") {
       break;
   }
 } else {
-  build("home.php", "Sirana | Ihr Catering aus Glarus", true);
+  build("home.php", "Sirana | Ihr Anbieter für Catering, Eventservice und Störkoch aus Glarus", true);
 }
