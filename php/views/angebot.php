@@ -79,9 +79,11 @@
             </div>
             <div class="infoValue">
               <p>
-                Sirana Catering bietet nicht nur eine kulinarische Verpflegung, sondern packt für Sie an.
+                Sirana Catering bietet nicht nur eine kulinarische Verpflegung, sondern packt für Sie an. 
+                Ob Hochzeit, Geburtstagsfeier
+                oder Weihnachtsessen für Ihre Firma, wir sind dabei.
                 <br/><br/>
-                Lassen Sie uns wissen, was Ihre Vorstellungen sind und wir organisieren für Sie das Ambiente,
+                Lassen Sie uns wissen, was Ihre Vorstellungen sind und wir planen für Sie das Ambiente,
                 die gewünschte Unterhaltung sowohl als auch die professionelle Bedienung, die Sie sich wünschen.
                </p>
             </div>
