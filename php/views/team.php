@@ -24,7 +24,7 @@
               aus. Für die Einzigartigkeit und Perfektion eines Anlasses ist ihm keine Mühe zu gross.
             </p>
             <p class="slide">
-              <span class="title">Raffael - </span>Der Geniesser, kreativer Luftibus und stetig auf der Suche nach
+              <span class="title">Raffael - </span>Der Geniesser, der kreative Kopf und stetig auf der Suche nach
               neuen Herausforderungen. Er bringt bereits einen vollen Topf an gastronomischen Erfahrungen mit und sorgt durch sein breites Fachwissen für das leibliche Wohl
               unserer Gäste.
             </p>
