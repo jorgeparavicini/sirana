@@ -22,5 +22,8 @@
       </p>
     </div>
   </div>
-  <div></div>
+  <div class="reference">
+    <p>Webseite entwickelt von: <a href="https://www.github.com/jorgeparavicini">Jorge Paravicini</a></p>
+    <p>Fotografie von: <a href="">Flootograph by Florian Rippmann</a></p>
+  </div>
 </footer>

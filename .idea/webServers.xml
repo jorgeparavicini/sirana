@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="13d43d9a-8ee8-4165-a750-22d2ae416c3b" name="Sirana" url="http://sirana.ch">
-        <fileTransfer mountedRoot="F:\xampp\htdocs" accessType="MOUNT" port="0" />
+      <webServer id="13d43d9a-8ee8-4165-a750-22d2ae416c3b" name="Sirana" url="http://localhost">
+        <fileTransfer mountedRoot="A:\xampp\htdocs" accessType="MOUNT" port="0" />
       </webServer>
       <webServer id="23e6fb1c-f7b6-4e1a-8ec3-f7f1d9a6a9e8" name="SiranaHot" url="http://sl239.web.hostpoint.ch">
         <fileTransfer host="sl239.web.hostpoint.ch" port="21">

@@ -89,4 +89,15 @@ footer {
       order: 0;
     }
   }
+
+  .reference {
+    display: flex;
+    flex-flow: column;
+
+    p, a {
+      font-size: 0.8em;
+      margin: 0;
+      letter-spacing: 1px;
+    }
+  }
 }
