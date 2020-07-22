@@ -16,17 +16,18 @@
         <div class="slide_viewer">
           <div class="slide_group">
             <p class="slide">Zu einer solch dynamischen Branche gehört auch ein genauso dynamisches Team. Simon,
-              Raffael und Adriana sind leidenschaftliche Gastgeber und Gastronomen. Sie überzeugen nicht nur durch ihre lebendige und frische Art, sondern
-              auch durch die Kompetenz und das Fachwissen, welches sie mitbringen.</p>
+              Raffael und Adriana sind leidenschaftliche Gastgeber und Gastronomen. Sie überzeugen nicht nur durch ihre
+              lebendige und frische Art, sondern auch durch die Kompetenz und das Fachwissen, welches sie mitbringen.
+            </p>
             <p class="slide">
-              <span class="title">Simon - </span> Das Arbeitstier, der Harmoniemensch und leidenschaftlicher
+              <span class="title">Simon - </span> Das Arbeitstier, der Harmoniemensch und leidenschaftliche
               Gastgeber. Seine Lust und Neugier, Neues auszuprobieren und Gäste zu überraschen, macht ihn
               aus. Für die Einzigartigkeit und Perfektion eines Anlasses ist ihm keine Mühe zu gross.
             </p>
             <p class="slide">
               <span class="title">Raffael - </span>Der Geniesser, der kreative Kopf und stetig auf der Suche nach
-              neuen Herausforderungen. Er bringt bereits einen vollen Topf an gastronomischen Erfahrungen mit und sorgt durch sein breites Fachwissen für das leibliche Wohl
-              unserer Gäste.
+              neuen Herausforderungen. Er bringt bereits einen vollen Topf an gastronomischen Erfahrungen mit und sorgt
+              durch sein breites Fachwissen für das leibliche Wohl unserer Gäste.
             </p>
             <p class="slide">
               <span class="title">Adriana - </span>Die ruhige Hand, der koordinierende Kopf und das Auge fürs
