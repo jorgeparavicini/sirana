@@ -7,7 +7,7 @@
   height: variables.$header-height-mobile;
   background-color: white;
   z-index: 10;
-  display: flex;
+  //display: flex;
 
   @include media.extra-large {
     height: variables.$header-height-desktop;
@@ -22,6 +22,10 @@
     margin: 0 auto;
     padding: 30px 0;
     pointer-events: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 1s ease;
   }
 
   nav {
@@ -42,10 +46,15 @@
     @include media.extra-large {
       height: auto;
       left: auto;
-      right: 30px;
+      right: 0;
       width: auto;
-      transform: none;
+      transform: translateX(100%);
       top: 30px;
+    }
+
+    @include media.s1600 {
+      transform: none;
+      right: 30px;
     }
 
     div {
@@ -100,6 +109,29 @@
     nav {
       transform: none;
     }
+
+    @include media.extra-large {
+      img {
+        left: 0;
+        transform: translateX(-100%);
+      }
+
+      nav {
+        right: 50%;
+        transform: translateX(50%);
+      }
+    }
+
+    @include media.s1600 {
+      img {
+        transform: none;
+      }
+
+      nav {
+        transform: none;
+      }
+    }
+
   }
 
   #hamburgerButton {
@@ -121,6 +153,11 @@
     }
 
     @include media.extra-large {
+      left: initial;
+      right: 33px;
+    }
+
+    @include media.s1600 {
       display: none;
     }
 
