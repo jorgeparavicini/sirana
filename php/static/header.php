@@ -8,9 +8,9 @@
     <nav>
       <div>
         <a href="/home">Home</a>
-        <a href="/angebot">Angebot</a>
+        <a href="/catering">Catering</a>
         <a href="/team">Team</a>
-        <a href="/impressionen">Gallerie</a>
+        <a href="/Gallerie">Gallerie</a>
         <a href="/kontakt">Kontakt</a>
       </div>
     </nav>

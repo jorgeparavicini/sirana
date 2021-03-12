@@ -13,12 +13,16 @@ if (!empty($path) && $path !== "/") {
       build("home.php", "Sirana | Ihr Anbieter für Catering, Eventservice und Störkoch aus Glarus", true);
       break;
 
-    case 'angebot':
-      build("angebot.php", "Sirana | Angebot");
+    case 'catering':
+      build("catering.php", "Sirana | Catering");
       break;
 
     case 'team':
       build('team.php', "Sirana | Team");
+      break;
+
+    case 'gallerie':
+      build('gallerie.php', "Sirana | Gallerie");
       break;
 
     case 'kontakt':

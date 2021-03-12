@@ -1,6 +1,6 @@
 @use 'header';
 @use 'media';
-@use 'angebot';
+@use 'catering';
 @use 'team';
 @use 'slideshow';
 @use 'kontakt';
@@ -12,6 +12,7 @@
 @use 'footer';
 @use 'legal';
 @use 'cookie';
+@use 'gallerie';
 
 body {
   display: flex;

@@ -13,7 +13,7 @@
           <div class="front">
             <img src="/img/Fotoshoot/IMG_7021.jpg" alt="Angebot Störkoch">
             <div class="forwarder">
-              <p>Störkoch</p>
+              <p>Privatanlässe</p>
               <span class="arrow active large">
                     <span></span>
                     <span></span>
@@ -39,7 +39,7 @@
           <div class="front">
             <img src="/img/Fotoshoot/IMG_6981-3.jpg" alt="Angebot Catering">
             <div class="forwarder">
-              <p>Catering</p>
+              <p>Firmenanlässe</p>
               <span class="arrow active large">
                     <span></span>
                     <span></span>
@@ -79,7 +79,7 @@
             </div>
             <div class="infoValue">
               <p>
-                Sirana Catering bietet nicht nur eine kulinarische Verpflegung, sondern packt für Sie an. 
+                Sirana Catering bietet nicht nur eine kulinarische Verpflegung, sondern packt für Sie an.
                 Ob Hochzeit, Geburtstagsfeier
                 oder Weihnachtsessen für Ihre Firma, wir sind dabei.
                 <br/><br/>
@@ -92,10 +92,10 @@
       </div>
     </div>
   </div>
-  <div class="hidden">
+  <div class="offerten">
     <p>Sind Sie noch auf der Suche nach einer passenden Eventlokalität? Dann lassen Sie sich von unseren
       Räumlichkeiten und Partnern inspirieren.</p>
-    <a class="button" href="#">Eventlokalitäten</a>
+    <a class="button" href="#">Beispielofferten</a>
   </div>
 </div>
 
