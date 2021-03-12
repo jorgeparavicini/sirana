@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="Sirana" createEmptyFolders="true" exclude=".svn;.cvs;.idea;.DS_Store;.git;.hg;*.hprof;*.pyc,.gitignore,.gitattributes,.editorconfig">
+  <component name="PublishConfigData" autoUpload="Always" serverName="Sirana" createEmptyFolders="true" exclude=".svn;.cvs;.idea;.DS_Store;.git;.hg;*.hprof;*.pyc,.gitignore,.gitattributes,.editorconfig" autoUploadExternalChanges="true">
     <serverData>
       <paths name="Sirana">
         <serverdata>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/scss" />
+          </excludedPaths>
         </serverdata>
       </paths>
       <paths name="SiranaHot">

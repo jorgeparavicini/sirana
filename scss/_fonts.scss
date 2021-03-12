@@ -7,3 +7,41 @@
   url("/Fonts/NewParisKingSize/NewParisKingSize-Air-WebS.ttf") format('truetype'),
   url("/Fonts/NewParisKingSize/NewParisKingSize-Air-WebS.svg#svgFontName") format('svg');
 }
+
+@font-face {
+  font-family: "NewParisHeadline";
+  src: url("/Fonts/NewParisHeadline/NewParisHeadline-Regular.otf");
+}
+
+@font-face {
+  font-family: "NewParisHeadline";
+  src: url("/Fonts/NewParisHeadline/NewParisHeadline-Medium.otf");
+  font-weight: 500 600;
+}
+
+@font-face {
+  font-family: "NewParisHeadline";
+  src: url("/Fonts/NewParisHeadline/NewParisHeadline-Bold.otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "NewParisHeadline";
+  src: url("/Fonts/NewParisHeadline/NewParisHeadline-RegularItalic.otf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "NewParisHeadline";
+  src: url("/Fonts/NewParisHeadline/NewParisHeadline-MediumItalic.otf");
+  font-weight: 500 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "NewParisHeadline";
+  src: url("/Fonts/NewParisHeadline/NewParisHeadline-BoldItalic.otf");
+  font-weight: bold;
+  font-style: italic;
+}
+

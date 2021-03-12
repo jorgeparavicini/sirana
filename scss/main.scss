@@ -1,6 +1,6 @@
 @use 'header';
 @use 'media';
-@use 'angebot';
+@use 'catering';
 @use 'team';
 @use 'slideshow';
 @use 'kontakt';
@@ -12,6 +12,8 @@
 @use 'footer';
 @use 'legal';
 @use 'cookie';
+@use 'gallerie';
+
 
 body {
   display: flex;
@@ -63,11 +65,11 @@ a {
 }
 
 h1 {
-  color: variables.$title-color;
+  font-family: NewParisHeadline, sans-serif;
+  color: black;
   font-size: 1.8em;
   letter-spacing: 6px;
   line-height: 40px;
-  text-transform: uppercase;
   font-weight: lighter;
 
   @include media.medium {
@@ -101,8 +103,8 @@ h2 {
 
 h3 {
   margin-top: 0;
-  font-family: neue-haas-grotesk-display, sans-serif;
-  color: variables.$title-color;
+  font-family: NewParisHeadline, sans-serif;
+  color: variables.$primary-color;
   font-size: 1.8em;
   letter-spacing: 4px;
   line-height: 40px;
@@ -116,6 +118,18 @@ h3 {
   @include media.largest {
     font-size: 2.5em;
   }
+}
+
+.pinkHeader {
+  color: variables.$secondary-color;
+}
+
+.mainBackground {
+  background-color: variables.$background-color !important;
+}
+
+.secondaryBackground {
+  background-color: variables.$secondary-background-color !important;
 }
 
 .pageContent {
@@ -138,7 +152,8 @@ h3 {
 
 .quote {
   margin: 80px auto 0 auto;
-  font-family: NewParisKingSize, serif;
+  font-family: NewParisHeadline, serif;
+  letter-spacing: normal;
   padding-right: 50px;
   padding-left: 50px;
   font-size: 1.3em;

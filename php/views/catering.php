@@ -11,9 +11,9 @@
       <div class="angebotContent">
         <div class="angebotInfo">
           <div class="front">
-            <img src="/img/Fotoshoot/IMG_7021.jpg" alt="Angebot Störkoch">
+            <img src="/img/privatanlass.jpg" alt="Angebot Störkoch">
             <div class="forwarder">
-              <p>Störkoch</p>
+              <p>Privatanlass</p>
               <span class="arrow active large">
                     <span></span>
                     <span></span>
@@ -37,9 +37,9 @@
       <div class="angebotContent">
         <div class="angebotInfo">
           <div class="front">
-            <img src="/img/Fotoshoot/IMG_6981-3.jpg" alt="Angebot Catering">
+            <img src="/img/firmenanlass.jpg" alt="Angebot Catering">
             <div class="forwarder">
-              <p>Catering</p>
+              <p>Firmenanlass</p>
               <span class="arrow active large">
                     <span></span>
                     <span></span>
@@ -65,7 +65,7 @@
       <div class="angebotContent">
         <div class="angebotInfo">
           <div class="front">
-            <img src="/img/Fotoshoot/IMG_7146.jpg" alt="Angebot Eventservice">
+            <img src="/img/eventservice.jpg" alt="Angebot Eventservice">
             <div class="forwarder">
               <p>Eventservice</p>
               <span class="arrow active large">
@@ -79,23 +79,25 @@
             </div>
             <div class="infoValue">
               <p>
-                Sirana Catering bietet nicht nur eine kulinarische Verpflegung, sondern packt für Sie an. 
+                Sirana Catering bietet nicht nur eine kulinarische Verpflegung, sondern packt für Sie an.
                 Ob Hochzeit, Geburtstagsfeier
                 oder Weihnachtsessen für Ihre Firma, wir sind dabei.
                 <br/><br/>
                 Lassen Sie uns wissen, was Ihre Vorstellungen sind und wir planen für Sie das Ambiente,
                 die gewünschte Unterhaltung sowohl als auch die professionelle Bedienung, die Sie sich wünschen.
-               </p>
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="hidden">
-    <p>Sind Sie noch auf der Suche nach einer passenden Eventlokalität? Dann lassen Sie sich von unseren
-      Räumlichkeiten und Partnern inspirieren.</p>
-    <a class="button" href="#">Eventlokalitäten</a>
+  <div class="offerten">
+    <p>Jeder Anlass ist ein neues Projekt mit unterschiedlichen Gegebenheiten
+      und Anforderungen. Damit wir auf Ihre individuellen Wünsche eingehen können, kontaktieren Sie uns und erhalten Sie
+      ein auf Ihre Bedürfnisse angepasstes Angebot.
+    </p>
+    <a class="button" href="/kontakt">Kontakt</a>
   </div>
 </div>
 

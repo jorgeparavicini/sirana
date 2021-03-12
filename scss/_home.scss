@@ -11,26 +11,55 @@
     }
   }
 
-  h2 {
-    margin-top: 40px;
+  .img--parent {
+    position: relative;
+    .mainImage {
+      height: 100vh;
+      width: 100vw;
+      object-fit: cover;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+      object-position: top;
+
+      /* @include media.extra-large {
+         height: 60vh;
+       }
+
+       @include media.largest {
+         width: 120%;
+         margin-left: -10%;
+         margin-right: auto;
+         height: 60vh;
+       }*/
+    }
+
+    .logo {
+      position: absolute;
+      z-index: 1;
+      left: 15%;
+      width: 70%;
+
+      @include media.medium {
+        left: 25%;
+        width: 50%;
+      }
+
+      @include media.largest {
+        width: 30%;
+        left: 35%;
+      }
+    }
   }
 
-  .mainImage {
-    height: 40vh;
-    width: 100%;
-    object-fit: cover;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+.pageContent {
+  margin-top: 0;
 
-    @include media.extra-large {
-      height: 60vh;
-    }
+  &.indent {
+    margin-top: 80px;
+  }
+}
 
-    @include media.largest {
-      width: 120%;
-      margin-left: -10%;
-      margin-right: auto;
-      height: 60vh;
-    }
+  h2 {
+    margin-top: 40px;
   }
 
   #philosophie {
@@ -65,5 +94,20 @@
     }
   }
 
+  .references {
+    margin-top: 80px;
+  }
+
+  .referenceHeader {
+    margin-bottom: 20px;
+  }
+
+  .slide_viewer {
+    height: 200px;
+  }
+
+  .bold {
+    font-weight: 300;
+  }
 
 }

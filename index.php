@@ -10,15 +10,19 @@ $extension = pathinfo($uri, PATHINFO_EXTENSION);
 if (!empty($path) && $path !== "/") {
   switch ($path) {
     case 'home':
-      build("home.php", "Sirana | Ihr Anbieter für Catering, Eventservice und Störkoch aus Glarus", true);
+      build("home.php", "Sirana | Ihr Anbieter für Catering, Eventservice und Störkoch aus Glarus", true, true);
       break;
 
-    case 'angebot':
-      build("angebot.php", "Sirana | Angebot");
+    case 'catering':
+      build("catering.php", "Sirana | Catering");
       break;
 
     case 'team':
       build('team.php', "Sirana | Team");
+      break;
+
+    case 'gallerie':
+      build('gallerie.php', "Sirana | Gallerie");
       break;
 
     case 'kontakt':
@@ -42,5 +46,5 @@ if (!empty($path) && $path !== "/") {
       break;
   }
 } else {
-  build("home.php", "Sirana | Ihr Anbieter für Catering, Eventservice und Störkoch aus Glarus", true);
+  build("home.php", "Sirana | Ihr Anbieter für Catering, Eventservice und Störkoch aus Glarus", true, true);
 }

@@ -3,6 +3,17 @@
 
 #angebot {
 
+  .button {
+    font-family: NewParisHeadline, serif;
+    letter-spacing: 0;
+    font-size: 1.8em;
+    background-color: transparent;
+  }
+
+  .button:hover {
+    background-color: variables.$secondary-background-color;
+  }
+
   h3 {
     margin-top: 40px;
   }
@@ -242,7 +253,7 @@
                 width: 90%;
                 padding: 10px 0;
                 margin: 0 auto;
-                background-color: white;
+                background-color: variables.$secondary-background-color;
                 color: black;
                 overflow: hidden;
                 cursor: pointer;
@@ -252,12 +263,11 @@
                 p {
                   width: 100%;
                   text-align: center;
-                  font-weight: lighter;
-                  letter-spacing: 5px;
                   font-size: 1.5em;
                   overflow: auto;
                   text-transform: uppercase;
                   color: black;
+                  font-family: NewParisHeadline, sans-serif;
                 }
 
                 .arrow {
@@ -276,7 +286,7 @@
                   &.small {display: none;}
 
                   span {
-                    background-color: #f3b09a;
+                    background-color: variables.$primary-color;
                   }
                 }
 
@@ -316,4 +326,9 @@
     }
   }
 
+  .offerten {
+    display: flex;
+    flex-flow: column;
+
+  }
 }

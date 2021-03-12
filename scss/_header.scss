@@ -2,15 +2,19 @@
 @use 'variables';
 
 #header {
-  position: fixed;
+  position: relative;
   width: 100vw;
   height: variables.$header-height-mobile;
   background-color: white;
   z-index: 10;
-  //display: flex;
 
   @include media.extra-large {
     height: variables.$header-height-desktop;
+  }
+
+  &.sticky {
+    position: fixed;
+    top: 0;
   }
 
   img {
@@ -26,6 +30,36 @@
     left: 50%;
     transform: translateX(-50%);
     transition: all 1s ease;
+  }
+
+  &.title_page {
+    height: 80px;
+
+    nav {
+      left: 50% !important;
+      transform: translateX(-50%) !important;
+
+      div {
+        a {
+          margin: 0 10px;
+          font-size: 1.35em;
+          letter-spacing: 3px;
+
+          @include media.largest {
+            margin: 0 20px;
+            font-size: 1.5em;
+            letter-spacing: 5px;
+          }
+        }
+
+      }
+    }
+
+    #hamburgerButton {
+      display: none;
+    }
+
+
   }
 
   nav {

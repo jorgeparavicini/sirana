@@ -4,6 +4,7 @@
       Sirana GmbH<br>
       Dorfstrasse 35<br>
       8755 Ennenda<br>
+      info@sirana.ch
     </address>
   </div>
   <div class="column" id="center">
