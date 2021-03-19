@@ -11,7 +11,7 @@
       <div class="angebotContent">
         <div class="angebotInfo">
           <div class="front">
-            <img src="/img/privatanlass.jpg" alt="Angebot Störkoch">
+            <img src="/img/privatanlass.jpg" alt="Privatanlass">
             <div class="forwarder">
               <p>Privatanlass</p>
               <span class="arrow active large">
@@ -25,10 +25,9 @@
             </div>
             <div class="infoValue">
               <p>
-                Möchten Sie bei sich Zuhause in gelassener Runde zu Tisch einladen, mögen aber nicht selbst kochen,
-                da Sie doch den Abend geniessen möchten?
+                Ob Geburtstagsdinner oder Hochzeitsapéro, wir verwöhnen Sie gerne nach Ihren Wünschen bei Ihnen Zuhause oder einer Location Ihrer Wahl.
                 <br/><br/>
-                So kontaktieren Sie uns und wir kochen für Sie, nach Ihren Wünschen bei Ihnen Zuhause.
+                Jeder Anlass ist einzigartig, zögern Sie also nicht uns zu kontaktieren, um Ihre Wünsche wahr werden zu lassen.
               </p>
             </div>
           </div>
@@ -37,7 +36,7 @@
       <div class="angebotContent">
         <div class="angebotInfo">
           <div class="front">
-            <img src="/img/firmenanlass.jpg" alt="Angebot Catering">
+            <img src="/img/firmenanlass.jpg" alt="Firmenanlass">
             <div class="forwarder">
               <p>Firmenanlass</p>
               <span class="arrow active large">
@@ -51,12 +50,9 @@
             </div>
             <div class="infoValue">
               <p>
-                Sirana Catering bringt die Kulinarik zu Ihnen. Firmenessen, Aperos sowie
-                private Feiern gehören allesamt zu unserem Angebot.
+                Überraschen Sie Ihre Kunden mit einem Apéro Riche oder bedanken Sie sich bei Ihren Mitarbeitern mit einer einzigartigen Weihnachtsfeier.
                 <br/><br/>
-                Jeder Anlass ist ein neues Projekt mit unterschiedlichen Gegebenheiten und Anforderungen.
-                Damit wir auf Ihre individuellen Wünsche eingehen können, kontaktieren Sie uns und erhalten Sie ein auf
-                Ihre Bedürfnisse angepasstes Angebot.
+                Wir bieten die passende Verpflegung für Ihren Firmenanlass. Flexibel und nach Ihren Wünschen gestaltet. Rufen Sie uns an und erhalten Sie Ihre individuelle Offerte.
               </p>
             </div>
           </div>
@@ -65,7 +61,7 @@
       <div class="angebotContent">
         <div class="angebotInfo">
           <div class="front">
-            <img src="/img/eventservice.jpg" alt="Angebot Eventservice">
+            <img src="/img/eventservice.jpg" alt="Eventservice">
             <div class="forwarder">
               <p>Eventservice</p>
               <span class="arrow active large">
