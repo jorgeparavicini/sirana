@@ -66,22 +66,18 @@ require_once "{$_SERVER['DOCUMENT_ROOT']}/php/models/Resources.php";
                   Präsident Sicherheits Arena Schweiz</span>
                 </p>
                 <p class="slide">
-                  <span class="title">Simon - </span> Das Arbeitstier, der Harmoniemensch und leidenschaftliche
-                  Gastgeber. Seine Lust und Neugier, Neues auszuprobieren und Gäste zu überraschen, macht ihn
-                  aus. Für die Einzigartigkeit und Perfektion eines Anlasses ist ihm keine Mühe zu gross.
+                  <span class="title">Nebst eurer sehr liebevollen ehrlichen Art, merkt man das absolute Fachwissen ist vorhanden durch eure Kochausbildung.
+                    Von der Vorspeise bis hin zum Dessert alles schmeckte einfach super lecker. Alle, nicht nur wir, waren begeistert, es schmeckte nicht nur wie in einem sehr
+                    noblen Restaurant, sondern auch die Dekoration der einzelnen Gänge war sehr gekonnt und auf hohem Niveau.
+                    Adriana hat uns sehr durch ihre liebevolle Art bedient und verwöhnt.       
+                    Jederzeit  buchen wir euch zu 100% bei einem nächsten Anlass. - <span class="bold"> S.Noll, zufriedene Privatkundin</span>
+
                 </p>
                 <p class="slide">
-                  <span class="title">Raffael - </span>Der Geniesser, der kreative Kopf und stetig auf der Suche nach
-                  neuen Herausforderungen. Er bringt bereits einen vollen Topf an gastronomischen Erfahrungen mit und
-                  sorgt
-                  durch sein breites Fachwissen für das leibliche Wohl unserer Gäste.
+                  <span class="title">Referenz 3
                 </p>
                 <p class="slide">
-                  <span class="title">Adriana - </span>Die ruhige Hand, der koordinierende Kopf und das Auge fürs
-                  Detail. Damit Gäste nicht nur kulinarisch verwöhnt werden, sondern auch von der räumlichen Gestaltung
-                  überzeugt sind, kümmert sich Adriana liebevoll um alle dekorativen Details. Auch sie ist
-                  leidenschaftliche Gastgeberin und hat zudem ein organisatorisches Talent, sodass auch alle
-                  administrativen Tätigkeiten einwandfrei funktionieren.
+                  <span class="title">Referenz 4
                 </p>
               </div>
             </div>
